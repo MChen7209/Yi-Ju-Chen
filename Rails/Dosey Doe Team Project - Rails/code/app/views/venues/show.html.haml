@@ -1,0 +1,23 @@
+%p#notice= notice
+
+%h1.text-center= @venue.name
+=link_to @venue.name, 'http://www.doseydoe.com', {:class => 'btn btn-primary'}
+.col-md-6.col-md-offset-3
+  .text-center
+    = will_paginate @shows
+  = render 'shows/index', shows: @venue.shows
+
+.col-md-3
+  %strong Phone:
+  %p= number_to_phone @venue.phone
+
+  %strong Email:
+  %p placeholder@doseydoe.com
+
+  %strong Address:
+  %p= @venue.address_line1.to_s + " " + @venue.address_line2.to_s + "\n".to_s + @venue.city.to_s + " " + @venue.state.to_s + " " + @venue.zip.to_s
+
+  -address = @venue.address_line1.to_s + @venue.address_line2.to_s
+  -address.sub " ","%20"
+  -address += "," + @venue.city.to_s + "," + @venue.state.to_s
+  %iframe{:frameborder => "0", :height => "350", :src => "https://www.google.com/maps/embed/v1/place?key=AIzaSyCi2Ke6yBM_s0TvGuQKNOpgOLFfYo67jEw\n    &q="+address, :style => "border:0"}

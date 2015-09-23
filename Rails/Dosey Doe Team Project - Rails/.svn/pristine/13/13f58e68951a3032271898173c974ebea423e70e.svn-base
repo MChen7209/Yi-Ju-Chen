@@ -1,0 +1,81 @@
+require File.expand_path('../config/application', __FILE__)
+require './coverage_master.rb'
+
+Rails.application.load_tasks
+
+desc 'Default task'
+task default: :cleanup
+
+desc 'Jenkins task'
+task jenkins: :cleanup do
+  puts 'Leeeeeroy Jenkins'
+  puts "(We got 'im, we got 'im)"
+end
+
+desc 'Print environment info'
+task :printinfo do
+  sh 'ruby -v'
+  sh 'rails -v'
+  sh 'gem -v'
+end
+
+desc 'Migrating database'
+task :migrate_db do
+  puts 'Migrating database...'
+  sh 'bundle exec rake db:migrate:reset RAILS_ENV=test'
+  sh 'bundle exec rake db:migrate:reset RAILS_ENV=development'
+end
+
+desc 'Run specs'
+task spec: :migrate_db do
+  Rake::Task['teaspoon'].invoke
+  Rake::Task['cvsum'].invoke
+end
+
+desc 'Clean up build files'
+task cleanup: :spec do
+  rm_rf 'log'
+  rm_rf 'tmp'
+  sh 'bundle exec rake db:drop RAILS_ENV=test'
+  sh 'bundle exec rake db:drop RAILS_ENV=development'
+end
+
+desc 'Run build'
+task build: :spec
+
+desc 'Open code coverage reports'
+task :oc do
+  Rake::Task['spec'].invoke unless CoverageMaster.reports_ready?
+
+  CoverageMaster.open_master_report
+end
+
+desc 'Rerun specs and open coverage reports'
+task soc: [:spec, :oc]
+
+desc 'Summarize coverage results'
+task :cvsum do
+  puts CoverageMaster.coverage_summary
+  CoverageMaster.generate_master_report
+end
+
+desc 'Start the server in daemon (silent) mode'
+task 'S:S' do
+  system('rails s -d')
+end
+
+desc 'Kill the currently running server'
+task 'S:K' do
+  pid_file_name = './tmp/pids/server.pid'
+  if File.file?(pid_file_name)
+    pid = File.open(pid_file_name).gets
+    sh "kill -9 #{pid}"
+    File.delete(pid_file_name)
+  end
+end
+
+desc 'Restart the server'
+task 'S:KS' do
+  Rake::Task['S:K'].invoke
+  Rake::Task['S:S'].invoke
+end

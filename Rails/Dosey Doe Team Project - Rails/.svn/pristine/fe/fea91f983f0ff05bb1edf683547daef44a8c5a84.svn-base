@@ -1,0 +1,6 @@
+class UsersController < ApplicationController
+  def checkout
+    @tickets = current_or_guest_user.tickets
+  end
+
+end

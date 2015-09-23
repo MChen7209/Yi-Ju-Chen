@@ -1,0 +1,115 @@
+class Admin::UsersController < ApplicationController
+  include Admin::AuthenticationHelper
+  before_action :require_view_admins, only: [:destroy, :admins]
+  before_action :require_admin_logged_in
+  before_action :find_user, only: [:edit, :destroy, :update]
+  before_action :require_view_customers, only: [:customers, :new, :create, :edit, :update]
+
+  @insufficient_permissions_message = 'You do not have sufficient permissions'
+
+  def customers
+    @users = Customer.all
+    @user_type = 'Customer'
+    render :index
+  end
+
+  def admins
+    @users = Admin.all
+    @user_type = 'Admin'
+    render :index
+  end
+
+  def new
+    @user = User.new
+    @url = admin_users_path
+  end
+
+  def create
+    if params.require(:user)[:type] == 'Admin'
+      unless current_or_guest_user.role.view_admins
+        redirect_to(admin_users_path, notice: 'You do not have create admin permissions') and return
+      end
+    end
+
+    @user = User.new(user_params)
+
+    if @user.save
+      redirect_to admin_customers_path, notice: "#{@user.first_name} #{@user.last_name} user created"
+    else
+      @url = admin_users_path
+      render :new, notice: "Unable to save #{@user.first_name} #{@user.last_name}"
+    end
+  end
+
+  def edit
+    @url = admin_user_path
+  end
+
+  def update
+    if @user.update(update_user_params)
+      redirect_to admin_users_path, notice: "#{@user.first_name} #{@user.last_name} successfully updated."
+    else
+      @url = admin_user_path
+      render :edit
+    end
+  end
+
+  def destroy
+    if @user == current_or_guest_user
+      @users = Admin.all
+      redirect_to admin_admins_path, notice: 'You cannot delete yourself'
+    elsif !@user.admin?
+      @users = Customer.all
+      redirect_to admin_customers_path, notice: 'You cannot delete a customer'
+    else
+      @user.destroy
+      @users = Admin.all
+      redirect_to admin_admins_path
+    end
+  end
+
+  def find_customers
+    @customers = customer_search
+  end
+
+  private
+  def customer_search
+    customers = Customer.all
+    customers = customers.where('lower(first_name) LIKE ?', "%#{params[:first_name]}%".downcase) if params[:first_name]
+    customers = customers.where('lower(last_name) LIKE ?', "%#{params[:last_name]}%".downcase) if params[:last_name]
+    customers = customers.where('lower(email) LIKE ?', "%#{params[:email]}%".downcase) if params[:email]
+    customers
+  end
+
+  def find_user
+    @user = User.find(params[:id])
+    require_view_admins if @user.admin?
+    require_view_customers if @user.customer?
+    rescue
+      @users = Customer.all
+      redirect_to admin_customers_path, notice: 'Error locating user, please try again'
+  end
+
+  def update_user_params
+    # Do not permit password if password was not updated
+    # Do not allow a user's type to be changed
+    if params.require(:user)[:password].blank?
+      params.require(:user).permit(:email, :first_name, :last_name, :role_id, :phone)
+    else
+      params.require(:user).permit(:email, :first_name, :last_name, :role_id, :password, :password_confirmation, :phone)
+    end
+  end
+
+  def user_params
+    params.require(:user).permit(:email, :first_name, :last_name, :password,
+                                 :password_confirmation, :type, :role_id, :phone)
+  end
+
+  def require_view_admins
+    require_permission :view_admins
+  end
+
+  def require_view_customers
+    require_permission :view_customers
+  end
+end

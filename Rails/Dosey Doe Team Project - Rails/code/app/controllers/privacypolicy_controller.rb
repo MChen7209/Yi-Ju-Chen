@@ -1,0 +1,2 @@
+class PrivacypolicyController < ApplicationController
+end

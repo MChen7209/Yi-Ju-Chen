@@ -1,0 +1,49 @@
+.col-md-6.col-md-offset-3
+  = form_for [:admin, @user], as: :user, html: {role: :form}, url: @url do |f|
+    - if @user.errors.any?
+      %h2= "#{pluralize(@user.errors.count, "error")} prohibited this user from being saved:"
+      %ul
+        - @user.errors.full_messages.each do |msg|
+          %li= msg
+
+    .row
+      #first_name.form-group
+        = f.label :first_name
+        = f.text_field :first_name, autofocus: true, class: 'form-control'
+
+    .row
+      #last_name.form-group
+        = f.label :last_name
+        = f.text_field :last_name, class: 'form-control'
+
+    .row
+      #email.form-group
+        = f.label :email
+        = f.email_field :email, class: 'form-control'
+
+    .row
+      .col-md-6
+        #user_type.form_group
+          = f.label :type
+          - if current_or_guest_user.role.view_admins
+            = f.select :type, options_for_select(%w{Customer Admin}, selected: @user.type)
+          - else
+            = f.select :type, options_for_select(%w{Customer}, selected: @user.type)
+
+      .col-md-6
+        #admin_role.form-group
+          = f.label :role
+          = f.collection_select :role_id, Role.all, :id, :name
+
+    .row
+      #password.form-group
+        = f.label :password
+        = f.password_field :password, class: 'form-control'
+
+    .row
+      #password_confirmation.form-group
+        = f.label :password_confirmation
+        = f.password_field :password_confirmation, class: 'form-control'
+
+    #submit.actions.text-center
+      = f.submit class: 'btn btn-primary'

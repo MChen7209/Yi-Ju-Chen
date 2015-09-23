@@ -1,0 +1,13 @@
+%p#notice= notice
+
+%p.text-center
+  %b Chart name:
+  = @seating_chart.name
+.col-md-8.col-md-offset-2
+  %canvas#seating_chart
+
+  .text-center
+    = link_to 'Back', admin_seating_charts_path, class: 'btn btn-primary'
+
+= stylesheet_link_tag 'jquery-ui-datepicker'
+= javascript_include_tag 'viewSeatingChart'

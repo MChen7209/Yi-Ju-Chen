@@ -1,0 +1,41 @@
+%h1.text-center Checkout
+%h1.text-center= current_or_guest_user.first_name + " " + current_or_guest_user.last_name
+%center
+  %table
+    -@tickets.each do |ticket|
+      %tr
+        %td.well.well-lg
+          .list-group
+            %a.list-group-item{:href => "#"}
+              %h4.list-group-item-heading Venue
+              %p= ticket.show.venue.name
+            %a.list-group-item{:href => "#"}
+              %h4.list-group-item-heading Show
+              %p= ticket.show.artist
+        %td.well.well-lg
+          .list-group
+            %a.list-group-item{:href => "#"}
+              %h4.list-group-item-heading Doors Open
+              %p= time_from_datetime(ticket.show.doors_open)
+            %a.list-group-item{:href => "#"}
+              %h4.list-group-item-heading Show Starts
+              %p= time_from_datetime(ticket.show.show_starts)
+        %td.well.well-lg
+          .list-group
+            %a.list-group-item{:href => "#"}
+              %h4.list-group-item-heading Dinner Starts
+              %p= time_from_datetime(ticket.show.dinner_starts)
+            %a.list-group-item{:href => "#"}
+              %h4.list-group-item-heading Dinner Ends
+              %p= time_from_datetime(ticket.show.dinner_ends)
+        %td.well.well-lg
+          .list-group
+            %a.list-group-item{:href => "#"}
+              %h4.list-group-item-heading Show is on
+              %p= date_as_words(ticket.show.show_date)
+            %a.list-group-item{:href => "#"}
+              %h4.list-group-item-heading Seat Number
+              %p= ticket.seat.seat_number
+        %td.well.well-lg
+          = link_to 'Remove Ticket', users_checkout_path, class: 'btn btn-primary'
+  = link_to 'Checkout', checkout_index_path, class: 'btn btn-primary'

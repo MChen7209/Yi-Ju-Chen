@@ -1,0 +1,7 @@
+%li#guest_dropdown.dropdown.inverse-dropdown.active
+  = link_to 'Guest/Sign In', '#', class: 'dropdown-toggle',
+            'data-toggle' => 'dropdown', role: :button, 'aria-expanded' => :false, id: :user_name
+  %ul.dropdown-menu{role: :menu}
+    %li#user_checkout= link_to 'Shopping Cart', users_checkout_path
+    %li.divider{role: :presentation}
+    %li#user_dropdown_sign_out= link_to 'Sign In', user_session_path

@@ -1,0 +1,20 @@
+apply plugin: 'java'
+
+sourceSets.main.java.srcDirs = ['Quixo/src']
+sourceSets.test.java.srcDirs = ['Quixo/test']
+
+dependencies {
+  testCompile group: 'junit', name: 'junit', version: "4.+"
+}
+
+repositories {
+  mavenCentral()
+}
+
+task(runui, dependsOn: 'classes', type: JavaExec) {
+  
+	main = 'quixo.Gui'
+	classpath = sourceSets.main.runtimeClasspath
+}
+
+defaultTasks 'clean','test'

@@ -1,0 +1,25 @@
+%h1 Currently Stored Additional Questions
+
+%table.table
+  %thread
+    -#%th
+    -@stored_questions.attribute_names.each do |attribute|
+      -if attribute == "venue_id"
+        %th= "venue"
+      -else
+        %th= attribute.sub '_', ' '
+    %th= ""
+    %th= ""
+
+    %tbody
+      -@stored_questions.each do |question|
+        %tr
+          -question.attribute_names.each do |content|
+            -if content == "venue_id"
+              %td= question.venue.name
+            -else
+              %td= question[content].to_s
+          %td= link_to 'Answers', admin_stored_question_path(question), :class => 'btn btn-default'
+          %td= link_to 'Edit Question', edit_admin_stored_question_path(question), :class => 'btn btn-default'
+
+= link_to 'Add Question', new_admin_stored_question_path, :class => 'btn btn-primary'

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="assign1.PerfectNumberFinderFunctionalTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2015-09-16T21:20:31" hostname="Yis-MacBook-Pro.local" time="0.037">
+  <properties/>
+  <testcase name="testIsPerfectNumberWhenFalse" classname="assign1.PerfectNumberFinderFunctionalTest" time="0.032"/>
+  <testcase name="testPerfectNumberFailWhenZero" classname="assign1.PerfectNumberFinderFunctionalTest" time="0.0"/>
+  <testcase name="testPerfectNumberFailWhenNegative" classname="assign1.PerfectNumberFinderFunctionalTest" time="0.0"/>
+  <testcase name="testIsPerfectNumberWhenTrue" classname="assign1.PerfectNumberFinderFunctionalTest" time="0.001"/>
+  <testcase name="testPerfectNumberFailWhenOne" classname="assign1.PerfectNumberFinderFunctionalTest" time="0.0"/>
+  <testcase name="testSumOfFactorsCorrect" classname="assign1.PerfectNumberFinderFunctionalTest" time="0.0"/>
+  <testcase name="testSumOfFactorsFail" classname="assign1.PerfectNumberFinderFunctionalTest" time="0.003"/>
+  <testcase name="testPerfectNumberWhenOdd" classname="assign1.PerfectNumberFinderFunctionalTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

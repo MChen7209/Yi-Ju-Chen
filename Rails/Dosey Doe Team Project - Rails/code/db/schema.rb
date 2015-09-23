@@ -1,0 +1,177 @@
+# encoding: UTF-8
+# This file is auto-generated from the current state of the database. Instead
+# of editing this file, please use the migrations feature of Active Record to
+# incrementally modify your database, and then regenerate this schema definition.
+#
+# Note that this schema.rb definition is the authoritative source for your
+# database schema. If you need to create the application database on another
+# system, you should be using db:schema:load, not running all the migrations
+# from scratch. The latter is a flawed and unsustainable approach (the more migrations
+# you'll amass, the slower it'll run and the greater likelihood for issues).
+#
+# It's strongly recommended that you check this file into your version control system.
+
+ActiveRecord::Schema.define(version: 20150505210355) do
+
+  create_table "price_sections", force: :cascade do |t|
+    t.string   "name"
+    t.boolean  "reserved"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
+    t.integer  "seating_chart_id"
+  end
+
+  add_index "price_sections", ["seating_chart_id"], name: "index_price_sections_on_seating_chart_id"
+
+  create_table "roles", force: :cascade do |t|
+    t.string   "name"
+    t.boolean  "sell_tickets"
+    t.boolean  "hold_seats"
+    t.boolean  "issue_refunds"
+    t.boolean  "view_reports"
+    t.boolean  "view_customers"
+    t.boolean  "view_admins"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+    t.string   "landing_page"
+  end
+
+  create_table "seating_charts", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
+    t.integer  "venue_id"
+    t.string   "chart_image_file_name"
+    t.string   "chart_image_content_type"
+    t.integer  "chart_image_file_size"
+    t.datetime "chart_image_updated_at"
+  end
+
+  add_index "seating_charts", ["venue_id"], name: "index_seating_charts_on_venue_id"
+
+  create_table "seats", force: :cascade do |t|
+    t.integer  "seating_chart_id"
+    t.integer  "x"
+    t.integer  "y"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
+    t.integer  "seat_number"
+    t.integer  "table_number"
+  end
+
+  add_index "seats", ["seating_chart_id"], name: "index_seats_on_seating_chart_id"
+
+  create_table "shows", force: :cascade do |t|
+    t.date     "show_date"
+    t.datetime "doors_open"
+    t.datetime "dinner_starts"
+    t.datetime "dinner_ends"
+    t.datetime "show_starts"
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
+    t.integer  "venue_id"
+    t.string   "artist"
+    t.integer  "seating_chart_id"
+    t.string   "artist_image_file_name"
+    t.string   "artist_image_content_type"
+    t.integer  "artist_image_file_size"
+    t.datetime "artist_image_updated_at"
+  end
+
+  add_index "shows", ["seating_chart_id"], name: "index_shows_on_seating_chart_id"
+  add_index "shows", ["venue_id"], name: "index_shows_on_venue_id"
+
+  create_table "shows_price_sections", force: :cascade do |t|
+    t.integer  "show_id"
+    t.integer  "price_section_id"
+    t.float    "actual_price"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "shows_price_sections", ["price_section_id"], name: "index_shows_price_sections_on_price_section_id"
+  add_index "shows_price_sections", ["show_id"], name: "index_shows_price_sections_on_show_id"
+
+  create_table "stored_questions", force: :cascade do |t|
+    t.text     "question"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer  "venue_id"
+    t.boolean  "active"
+  end
+
+  add_index "stored_questions", ["venue_id"], name: "index_stored_questions_on_venue_id"
+
+  create_table "ticket_layouts", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer  "venue_id"
+  end
+
+  add_index "ticket_layouts", ["venue_id"], name: "index_ticket_layouts_on_venue_id"
+
+  create_table "tickets", force: :cascade do |t|
+    t.integer  "user_id"
+    t.integer  "show_id"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+    t.string   "status"
+    t.datetime "reserved_until"
+    t.integer  "seat_id"
+  end
+
+  add_index "tickets", ["seat_id"], name: "index_tickets_on_seat_id"
+  add_index "tickets", ["show_id"], name: "index_tickets_on_show_id"
+  add_index "tickets", ["user_id"], name: "index_tickets_on_user_id"
+
+  create_table "users", force: :cascade do |t|
+    t.string   "email",                  default: "", null: false
+    t.string   "encrypted_password",     default: "", null: false
+    t.string   "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.integer  "sign_in_count",          default: 0,  null: false
+    t.datetime "current_sign_in_at"
+    t.datetime "last_sign_in_at"
+    t.string   "current_sign_in_ip"
+    t.string   "last_sign_in_ip"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "type"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.integer  "role_id"
+    t.string   "phone"
+  end
+
+  add_index "users", ["email"], name: "index_users_on_email", unique: true
+  add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
+  add_index "users", ["role_id"], name: "index_users_on_role_id"
+
+  create_table "venue_answers", force: :cascade do |t|
+    t.text     "answer"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+    t.integer  "stored_question_id"
+  end
+
+  add_index "venue_answers", ["stored_question_id"], name: "index_venue_answers_on_stored_question_id"
+
+  create_table "venues", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+    t.string   "address_line1"
+    t.string   "address_line2"
+    t.string   "city"
+    t.string   "state"
+    t.string   "zip"
+    t.string   "phone"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
+  end
+
+end

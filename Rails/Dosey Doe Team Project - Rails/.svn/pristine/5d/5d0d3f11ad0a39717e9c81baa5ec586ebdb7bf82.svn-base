@@ -1,0 +1,41 @@
+%h1.text-center Listing venues
+-#%tr{align:center}
+-#.col-md-6.col-md-offset-3
+-#  - @venues.each_slice 2 do |slice|
+-#    .row.well-sm
+-#      - slice.each do |venue|
+-#        .col-md-6
+-#          %ul.list-unstyled
+-#            %lh= link_to venue.name, admin_venue_path(venue)
+-#            %li= venue.address_line1
+-#            %li= venue.address_line2 if not blank?
+-#            %li= venue.city
+-#            %li= venue.state
+-#            %li= venue.zip
+-#          = link_to 'edit', edit_admin_venue_path(venue), :class => 'btn btn-primary'
+
+%table.table
+  %thread
+    -#%th
+    -@venues.attribute_names.each do |attribute|
+      -if attribute != 'id' && attribute != 'created_at'
+        %th= attribute.sub '_', ' '
+    %th= 'Ticket Layout'
+    %th
+    %th
+
+    %tbody
+      -@venues.each do |venue|
+        %tr
+          -venue.attribute_names.each do |content|
+            -if content != 'id' && content != 'created_at'
+              -if content == 'phone'
+                %td= number_to_phone(venue[content])
+              -else
+                %td= venue[content].to_s
+          %td= venue.ticket_layout.name
+          %td= link_to 'Select', admin_venue_path(venue), :class => 'btn btn-primary'
+          %td= link_to 'Edit', edit_admin_venue_path(venue), :class => 'btn btn-primary'
+
+.row.text-center
+  = link_to 'New Venue', new_admin_venue_path, :class => 'btn btn-primary'

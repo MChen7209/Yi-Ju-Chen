@@ -1,0 +1,39 @@
+%h1.text-center Upcoming Shows
+%p.text-center
+  = link_to 'Add New Show', new_admin_show_path, class: 'btn btn-primary'
+%br
+.col-md-7.col-md-offset-1
+  %table.table
+    %th Artist
+    %th Venue
+    %th Show Date
+    %th Doors Open
+    %th Dinner Starts
+    %th Dinner Ends
+    %th Section Name
+    %th Seating Type
+    %th
+      -# this th is for the edit button
+    - row_count = 0
+    -@shows.each do |show|
+      %tr(id="row_#{row_count += 1}"
+          onMouseOver="this.style.backgroundColor='#F0F8FF';"
+          onMouseOut="this.style.backgroundColor='#FFFFFF';")
+        %td(id="show#{show.id}_artist")= show.artist
+        %td(id="show#{show.id}_venue")= show.venue.name
+        %td(id="show#{show.id}_show_date")= date_as_words show.show_date
+        %td(id="show#{show.id}_doors_open")= time_from_datetime show.doors_open
+        %td(id="show#{show.id}_dinner_starts")= time_from_datetime(show.dinner_starts)
+        %td(id="show#{show.id}_dinner_ends")= time_from_datetime(show.dinner_ends)
+        -for ps in show.price_sections do
+          %td=ps.name
+          %td=ps.reserved ? 'Reserved' : 'Not Reserved'
+        %td= link_to 'Edit show', edit_admin_show_path(show), class: 'btn btn-primary'
+
+
+#sidebar.col-md-2
+  .form-group
+    = form_tag admin_shows_path, :method => 'get' do
+      %label Artist
+      = text_field_tag :search, params[:search], class: 'form-control'
+      = submit_tag "Search", :name => nil

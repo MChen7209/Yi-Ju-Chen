@@ -1,0 +1,51 @@
+%center
+  %h1
+    Dosey Doe Ticket Administration
+
+%center
+  %table
+    %tr
+      %td.well.well-lg
+        .list-group
+          %a.list-group-item(href=new_admin_show_path)
+            Admin Quick Add Show
+          %a.list-group-item(href=admin_shows_path)
+            Admin Shows View
+          %a.list-group-item(href=admin_venues_path)
+            Admin Venues View
+      %td.well.well-lg
+        .list-group
+          %a.list-group-item(href=shows_path)
+            Normal Shows View
+          %a.list-group-item(href=venues_path)
+            Normal Venues View
+      %td.well.well-lg
+        .list-group
+          %a.list-group-item(href=admin_seating_charts_path)
+            Seating Charts
+          %a.list-group-item(href=admin_ticket_layouts_path)
+            Ticket Layouts
+      %td.well.well-lg
+        .list-group
+          %a.list-group-item.disabled
+            Sell Tickets
+          %a.list-group-item(href=static_pages_customer_service_path)
+            Customer Service
+          %a.list-group-item(href=admin_reports_path)
+            Reports
+          %a.list-group-item(href=admin_customers_path)
+            Ticket Site Users
+          %a.list-group-item(href=new_admin_user_path)
+            Create New User
+
+%hr
+
+.panel.panel-warning
+  .panel-heading
+    %h3.panel-title
+      Notes
+  .panel-body
+    %p
+      Eventually, we should give logged-in admins a special nav bar with all these links so they can hop around easily instead of having to come back here.
+    %p
+      Note that the reqs say there are three different kinds of admins (admins, managers, and sales), and each have different permissions. These reqs will eventually be upheld, too. The groups above are just made up; the three roles don't correspond to the three columns above.

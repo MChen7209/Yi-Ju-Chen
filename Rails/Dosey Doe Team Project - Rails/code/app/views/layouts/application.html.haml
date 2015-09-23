@@ -1,0 +1,20 @@
+!!! 5
+%html
+  %head
+    = stylesheet_link_tag    'application', media: 'all' #, 'data-turbolinks-track' => true
+    = javascript_include_tag 'application' #, 'data-turbolinks-track' => true
+    = csrf_meta_tags
+    = include_gon
+    %title Dosey Doe Ticket Sales
+  %body
+    = render 'layouts/navbar'
+
+    - flash.each do |name, msg|
+      .row
+        .col-md-6.col-md-offset-3
+          = content_tag :div, msg, class: 'alert alert-info'
+    .container-fluid
+      = yield
+
+  %footer
+    = render 'layouts/footer'

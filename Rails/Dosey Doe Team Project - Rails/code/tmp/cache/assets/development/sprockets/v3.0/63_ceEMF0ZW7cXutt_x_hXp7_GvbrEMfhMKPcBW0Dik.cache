@@ -1,0 +1,22 @@
+I"ì(function() {
+  var toggleAdminType;
+
+  toggleAdminType = function() {
+    var checkTypeDropdown;
+    checkTypeDropdown = function() {
+      if ($('#user_type option:selected').text() === 'Admin') {
+        return $('#admin_role').show();
+      } else {
+        return $('#admin_role').hide();
+      }
+    };
+    checkTypeDropdown();
+    return $('#user_type').change(function() {
+      return checkTypeDropdown();
+    });
+  };
+
+  $('admin.users.new').ready(toggleAdminType);
+
+}).call(this);
+:ET

@@ -1,0 +1,18 @@
+.col-md-8.col-md-offset-2
+  %table.table#roles_table
+    %th Name
+    %th Landing Page
+    %th Sell Tickets
+    %th Hold Seats
+    %th Issue Refunds
+    %th View Reports
+    %th View/Edit Customers
+    %th View/Edit Admins
+    %th Update
+    - @roles.each do |role|
+      - @role = role
+      = render 'form'
+  
+  .text-center
+    - if !@new_role
+      = link_to 'Add Role', new_admin_role_path, class: 'btn btn-primary'

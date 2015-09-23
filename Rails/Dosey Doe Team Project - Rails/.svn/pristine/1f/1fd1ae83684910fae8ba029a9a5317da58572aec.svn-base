@@ -1,0 +1,55 @@
+= form_for [:admin, @show], html: {role: 'form'} do |f|
+  - if @show.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@show.errors.count, "error")} prohibited this show from being saved:"
+      %ul
+        - @show.errors.full_messages.each do |msg|
+          %li= msg
+
+  .row
+    .form-group
+      .col-md-6
+        = f.label :venue_id
+        = f.collection_select :venue_id, Venue.all, :id, :name, class: 'form-control'
+      .col-md-6
+        = f.label :artist
+        = f.text_field :artist, class: 'form-control'
+  .row.row-centered
+    .col-md-6
+      .form-group
+        = f.label :date
+        = f.date_select :show_date, order: [:day, :month, :year], class: 'form-control'
+    .col-md-6
+      .form-group
+        = f.label :doors_open
+        = f.time_select :doors_open, minute_step: 5, ampm: true, class: 'form-control'
+  .row.row-centered
+    .col-md-6
+      .form-group.dinner_starts
+        = f.label :dinner_starts
+        = f.time_select :dinner_starts, minute_step: 5, ampm: true, class: 'form-control'
+    .col-md-6
+      .form-group.dinner_ends
+        = f.label :dinner_ends
+        = f.time_select :dinner_ends, minute_step: 5, ampm: true, class: 'form-control'
+  .row
+    .col-md-6
+      .form-group
+        = f.label :show_starts
+        = f.time_select :show_starts, minute_step: 5, ampm: true, class: 'form-control'
+    .col-md-6
+      - if @show.new_record?
+        .form-group
+          = f.label :seating_chart_id
+          = f.collection_select :seating_chart_id, SeatingChart.all, :id, :name, class: 'form-control'
+      - else
+        <b>Seating chart:</b>
+        = @show.seating_chart.name
+  .row
+    .form-group.text-center
+      = f.label :artist_image
+      = f.file_field :artist_image, class: 'form-control'
+  %br
+  .row.text-center
+    .actions
+      = f.submit 'Save Show', class: 'btn btn-primary'

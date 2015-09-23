@@ -1,0 +1,27 @@
+Assign1: Due 11:59PM September 26th
+
+In this assignment we will build the program we designed in HW2.
+First, no matter what we came up with in the initial design, feel free to change any of those decisions.
+
+Use test driven development to create the core logic - do not write any code without having a test fail.
+Write minimum code to make tests pass. Take small steps and evolve using reviews/feedback.
+Drive the tactical design and development using tests and reviews.
+
+Once you have completed the coding (and only after that) answer the following:
+
+1. How is the design in this assignment different from the design created in HW2?
+
+One major thing we removed is deques. Although in theory it would have been a very good way to control the directional movement after removing a piece, it would create some complications that isn't worth just using arrays.
+
+2. What did you learn (about the game) in this assignment that you did not already know from the activity in HW2?
+
+Replace this with your answer.
+
+3. What are some major take aways, lessons learned about software design from this assignment?
+
+	Our idea of using deques seemed to have problems after actually implementing it. We changed deques to arrays of cubes because there was some complications with how deques worked. Originally, deques was used to help deal with the directional movement after the placement of the cube back into the game. Since we were using 2 dimensional deques there were problems. In order to get cubes in the middle, we would have to use iteraters. Since it would be less complicating and controllable to use arrays, we decided to switch to arrays.
+
+4. Are there any particular design concepts, design principles that were used in this assignment?
+
+	We tried to make the program as much Command-Query Separation much as possible to make the code more organized and less coupled. However for fluency it wasn't completely adopted.
+

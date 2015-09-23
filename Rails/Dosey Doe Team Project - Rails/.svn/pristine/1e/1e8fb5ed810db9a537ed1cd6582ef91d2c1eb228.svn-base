@@ -1,0 +1,30 @@
+%h1.text-center Ticket Layouts
+%br
+
+-#.col-md-1.col-md-offset-3
+-#  = link_to 'New Ticket Layout', new_admin_ticket_layout_path, class: 'pull-right btn btn-primary'
+
+.col-md-5.col-md-offset-4
+  - if @ticket_layouts.count == 0 then
+    %tr
+      %td
+        %b= 'No ticket layouts created yet.'
+  -else
+    %table.table
+      %thead
+        %tr
+          %th= 'Ticket Layout Name'
+          %th= 'Venue'
+          %th= 'Options'
+
+      %tbody
+        - @ticket_layouts.each do |ticket_layout|
+          %tr
+            %td= ticket_layout.name
+            %td= ticket_layout.venue.name
+            %td{ min_width: '100px;'}
+              =link_to 'Show', admin_ticket_layout_path(ticket_layout), class: 'btn btn-primary'
+              \|
+              =link_to 'Edit', edit_admin_ticket_layout_path(ticket_layout), class: 'btn btn-primary'
+
+%br

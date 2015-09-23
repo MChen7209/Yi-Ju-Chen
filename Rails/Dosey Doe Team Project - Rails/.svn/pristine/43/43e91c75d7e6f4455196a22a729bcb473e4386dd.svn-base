@@ -1,0 +1,40 @@
+#errors
+
+.col-md-2
+  = form_tag '#', id: :sidebar_add_seat do
+    = label_tag :seat_number
+    = text_field_tag :seat_number, nil, id: :sidebar_seat_number, class: 'form-control'
+    = label_tag :table_number
+    = text_field_tag :table_number, nil, id: :sidebar_table_number, class: 'form-control'
+    = submit_tag 'Add Seat', class: 'btn btn-primary'
+  = form_for [:admin, @seating_chart], remote: true, authenticity_token: true, multipart: true do |f|
+    %br
+    .form-group.text-center
+      = f.label :name
+      = f.text_field :name, class: 'form-control'
+    .form-group.text-center
+      = f.label :venue_id
+      = f.collection_select :venue_id, Venue.all, :id, :name
+    .form-group.text-center
+      = f.label :chart_image
+      = f.file_field :chart_image, id: :seating_chart_file
+    .actions.text-center
+      = f.submit 'Save', class: 'btn btn-primary'
+      \|
+      = link_to 'Back', :back, class: 'btn btn-primary'
+
+
+
+.col-md-8
+  %canvas#seating_chart
+
+#edit_seat{ title: 'Edit seat' }
+  = form_tag do
+    .form-group
+      = label_tag :seat_number
+      = text_field_tag :seat_number, nil, id: :form_seat_number, class: 'form-control'
+    .form-group
+      = label_tag :table_number
+      = text_field_tag :table_number, nil, id: :form_table_number, class: 'form-control'
+
+= stylesheet_link_tag 'jquery-ui-datepicker'

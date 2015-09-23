@@ -1,0 +1,14 @@
+%h1.text-center Listing venues
+
+#shows.col-md-7.col-md-offset-3
+  -@venues.each do |venue|
+    %h2.row= link_to venue.name, venue_path(venue)
+    .row
+      .col-md-5
+        = link_to image_tag(venue.image.url(:medium), class: 'img-responsive'), venue_path(venue)
+      .col-md-7
+        = venue.address_line1 + " " + venue.address_line2.to_s
+        %br
+        = venue.city + ", " + venue.state + " " + venue.zip
+        %br
+        = number_to_phone venue.phone

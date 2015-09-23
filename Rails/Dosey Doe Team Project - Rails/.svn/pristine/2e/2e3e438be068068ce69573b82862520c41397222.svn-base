@@ -1,0 +1,3 @@
+.navbar.navbar-inverse#footer
+  .container-fluid
+    .text-left Dosey Doe Inc.&copy;

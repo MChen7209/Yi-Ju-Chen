@@ -1,0 +1,40 @@
+= form_for [:admin, @venue] do |f|
+  - if @venue.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@venue.errors.count, "error")} prohibited this venue from being saved:"
+      %ul
+        - @venue.errors.full_messages.each do |msg|
+          %li= msg
+
+  .form-group
+    = f.label :name
+    = f.text_field :name, class: 'form-control'
+  .form-group
+    =f.label :address_line1, 'Address Line 1'
+    =f.text_field :address_line1, class: 'form-control'
+  .form-group
+    =f.label :address_line2, 'Address Line 2'
+    =f.text_field :address_line2, class: 'form-control'
+  .form-group
+    =f.label :city
+    =f.text_field :city, class: 'form-control'
+  .form-group
+    =f.label :state
+    =f.text_field :state, class: 'form-control'
+  .form-group
+    =f.label :zip
+    =f.text_field :zip, class: 'form-control'
+  .form-group
+    =f.label :phone
+    =f.text_field :phone, class: 'form-control'
+  -if @venue.new_record?
+    .form-group
+      =f.label :ticket_layout
+      =f.text_field :ticket_layout, class: 'form-control'
+  .form-group
+    = f.label :image
+    = f.file_field :image, class: 'form-control'
+  .actions.text-center
+    = f.submit 'Save', class: 'btn btn-primary'
+    \|
+    = link_to 'Back', :back, :class => 'btn btn-primary'

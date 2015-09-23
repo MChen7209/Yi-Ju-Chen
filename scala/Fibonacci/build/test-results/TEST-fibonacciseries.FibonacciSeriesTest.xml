@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="fibonacciseries.FibonacciSeriesTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2015-09-23T17:05:20" hostname="Yis-MacBook-Pro.local" time="0.098">
+  <properties/>
+  <testcase name="verifyTailTenTest" classname="fibonacciseries.FibonacciSeriesTest" time="0.092"/>
+  <testcase name="verifyTailOneTest" classname="fibonacciseries.FibonacciSeriesTest" time="0.0"/>
+  <testcase name="canary" classname="fibonacciseries.FibonacciSeriesTest" time="0.0"/>
+  <testcase name="verifyTenTest" classname="fibonacciseries.FibonacciSeriesTest" time="0.005"/>
+  <testcase name="verifyTailTwoTest" classname="fibonacciseries.FibonacciSeriesTest" time="0.0"/>
+  <testcase name="verifyOneTest" classname="fibonacciseries.FibonacciSeriesTest" time="0.0"/>
+  <testcase name="verifyTwoTest" classname="fibonacciseries.FibonacciSeriesTest" time="0.0"/>
+  <testcase name="verifyZeroTest" classname="fibonacciseries.FibonacciSeriesTest" time="0.001"/>
+  <testcase name="verifyTailZeroTest" classname="fibonacciseries.FibonacciSeriesTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

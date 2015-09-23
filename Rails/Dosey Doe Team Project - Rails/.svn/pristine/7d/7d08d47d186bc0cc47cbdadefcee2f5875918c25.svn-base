@@ -1,0 +1,12 @@
+- @shows.each do |show|
+  %div(id= "show#{show.id}")
+    %h2.row= link_to show.artist, show_path(show)
+    .row
+      .col-md-5
+        = link_to image_tag(show.artist_image.url(:medium), class: 'img-responsive'), show_path(show)
+      .col-md-7
+        %strong= date_as_words show.show_date
+      .col-md-6
+        = "Doors open at #{time_from_datetime show.doors_open}"
+      .col-md-5
+        = "Dinner served between #{time_from_datetime show.dinner_starts} and #{time_from_datetime show.dinner_ends}"

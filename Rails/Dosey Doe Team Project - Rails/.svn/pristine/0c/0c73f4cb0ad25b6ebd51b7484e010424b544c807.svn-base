@@ -1,0 +1,7 @@
+a.sold_seat
+  color: red
+  pointer-events: none
+  cursor: default
+
+a.open_seat
+  color: green

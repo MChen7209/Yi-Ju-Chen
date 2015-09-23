@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="quixo.GameTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2015-09-23T21:06:31" hostname="Yis-MacBook-Pro.local" time="0.007">
+  <properties/>
+  <testcase name="testMoveCubeTwice" classname="quixo.GameTest" time="0.004"/>
+  <testcase name="testMoveTopLeftCornerCubeRight" classname="quixo.GameTest" time="0.0"/>
+  <testcase name="testMoveTopRightCornerCubeLeft" classname="quixo.GameTest" time="0.0"/>
+  <testcase name="testCheckDiagonalVictory" classname="quixo.GameTest" time="0.0"/>
+  <testcase name="testMoveMiddleCubeRight" classname="quixo.GameTest" time="0.0"/>
+  <testcase name="testMoveOpponentCube" classname="quixo.GameTest" time="0.0"/>
+  <testcase name="testMoveEdgeCubeRight" classname="quixo.GameTest" time="0.001"/>
+  <testcase name="testCheckColumnVictory" classname="quixo.GameTest" time="0.0"/>
+  <testcase name="testMoveEdgeCubeDown" classname="quixo.GameTest" time="0.0"/>
+  <testcase name="testCheckRowVictory" classname="quixo.GameTest" time="0.0"/>
+  <testcase name="testMoveTopLeftCornerCubeDown" classname="quixo.GameTest" time="0.0"/>
+  <testcase name="testCheckWinnerIfBothWin" classname="quixo.GameTest" time="0.0"/>
+  <testcase name="testMoveBottomLeftCornerCubeUp" classname="quixo.GameTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

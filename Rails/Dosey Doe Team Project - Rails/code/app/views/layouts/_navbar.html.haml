@@ -1,0 +1,32 @@
+.navbar.navbar-inverse
+  .container-fluid
+    .navbar-header
+      %button.navbar-toggle(data-toggle= "collapse" data-target=".navbar-collapse")
+        %span.glyphicon.glyphicon-menu-hamburger.active(style='color: #FFFFFF')
+      = link_to 'Dosey Doe', 'http://www.doseydoe.com', :class => 'navbar-brand', id: :dosey_doe_link
+      = link_to 'Tickets', root_path, :class => 'navbar-brand', id: :dosey_doe_tickets_link
+    .collapse.navbar-collapse
+      %ul.nav.navbar-nav.navbar-right
+        -if (tc = reserved_ticket_count) > 0
+          %li.navbar-link
+            <a href='#{users_checkout_path}' style='color:#FFC329;'>        |
+              <span class="glyphicon glyphicon-shopping-cart"></span>       |
+              #{tc} ticket#{tc>1?'s':''} in cart                            |
+              (<span id='cartTimer'>#{seconds_until_ticket_expiration}</span>)</a> |
+        -if current_or_guest_user.guest?
+          %li.active
+            = link_to 'Sign Up', new_user_registration_path
+        -if current_or_guest_user.admin?
+          = render '/layouts/admin_dropdown'
+        -elsif current_or_guest_user.customer?
+          = render '/layouts/customer_dropdown'
+        -else
+          = render '/layouts/guest_dropdown'
+        %li.active
+          = link_to 'All Shows', shows_path
+        %li.active
+          = link_to 'Venues', venues_path
+        %li.active
+          = link_to 'Contact Us', static_pages_contact_us_path
+        %li.active
+          = link_to 'Privacy Policy', static_pages_privacy_policy_path

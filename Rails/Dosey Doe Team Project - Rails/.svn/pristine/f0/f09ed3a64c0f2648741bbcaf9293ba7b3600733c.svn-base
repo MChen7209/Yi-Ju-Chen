@@ -1,0 +1,7 @@
+class StoredQuestion < ActiveRecord::Base
+  validates :question, presence: true
+
+  belongs_to :venue
+  has_many :venue_answers, dependent: :destroy
+  accepts_nested_attributes_for :venue_answers, reject_if: lambda { |a| a[:content].blank? }, allow_destroy: true
+end

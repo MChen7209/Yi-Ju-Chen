@@ -1,0 +1,17 @@
+%p#notice= notice
+
+%h1= "Question: " + @stored_question.question
+
+%table.table
+  %thread
+    -#%th
+    -@stored_question.venue_answers.attribute_names.each do |attribute|
+      %th= attribute.sub '_', ' '
+
+    %tbody
+      -@stored_question.venue_answers.each do |answer|
+        %tr
+          -answer.attribute_names.each do |content|
+            %td= answer[content].to_s
+
+= link_to 'Back', :back, :class => 'btn btn-default'

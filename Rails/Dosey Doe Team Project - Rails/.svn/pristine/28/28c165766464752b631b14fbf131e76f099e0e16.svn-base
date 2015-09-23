@@ -1,0 +1,11 @@
+%tr(id= "#{@role.new_record? ? "new_role_attributes" : "#{@role.name}_row"}")
+  =form_for [:admin, @role] do |form|
+    %td= form.text_field :name, class: 'form-control'
+    %td= form.text_field :landing_page, class: 'form-control'
+    %td= form.check_box :sell_tickets, class: 'form-control'
+    %td= form.check_box :hold_seats, class: 'form-control'
+    %td= form.check_box :issue_refunds, class: 'form-control'
+    %td= form.check_box :view_reports, class: 'form-control'
+    %td= form.check_box :view_customers, class: 'form-control'
+    %td= form.check_box :view_admins, class: 'form-control'
+    %td= form.submit "#{@role.new_record? ? 'Add' : 'Update'}"

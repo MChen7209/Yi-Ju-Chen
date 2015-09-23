@@ -1,0 +1,71 @@
+public void testRetrieveStockReportGOOG()
+    {
+        stock.setTicker("GOOG");
+        stock.setStockReport(new File("GOOG"));
+        stock.getStockReport().delete();
+        assertFalse(stock.getStockReport().exists());
+        stock.retrieveStockReport();
+        assertTrue(stock.getStockReport().exists());
+    }
+
+    public void testRetrieveStockReportAMZN()
+    {
+        stock.setTicker("AMZN");
+        stock.setStockReport(new File("AMZN"));
+        stock.getStockReport().delete();
+        assertFalse(stock.getStockReport().exists());
+        stock.retrieveStockReport();
+        assertTrue(stock.getStockReport().exists());
+    }
+
+    public void retrieveStockReport()
+    {
+        try
+        {
+            URL url = new URL("http://ichart.finance.yahoo.com/table.csv?s="+ticker);
+            URLConnection connection = url.openConnection();
+            BufferedReader input = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+            stockReport = new File(ticker);
+            if (!stockReport.exists())
+            {
+                stockReport.createNewFile();
+            }
+            FileWriter writer = new FileWriter(stockReport.getAbsoluteFile());
+            BufferedWriter output = new BufferedWriter(writer);
+            String buffer;
+            while((buffer = input.readLine()) != null)
+            {
+                output.write(buffer);
+            }
+            input.close();
+            output.close();
+        }
+        catch(MalformedURLException e)
+        {
+            System.out.println("Bad url!");
+        }
+        catch(IOException e)
+        {
+            System.out.println("IO Error!");
+        }
+    }
+
+
+    public void setTicker(String stock)
+    {
+        ticker = stock;
+    }
+    
+    public String getTicker()
+    {
+        return ticker;
+    }
+    public void setStockReport(File report)
+    {
+        stockReport = report;
+    }
+    
+    public File getStockReport()
+    {
+        return stockReport;
+    }

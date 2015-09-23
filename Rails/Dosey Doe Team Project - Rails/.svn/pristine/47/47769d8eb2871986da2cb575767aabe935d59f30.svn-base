@@ -1,0 +1,15 @@
+%h1
+  Reports
+
+%ul
+  - @available_reports.each do |key, value|
+    %li= link_to value, report_path(key)
+  %li= link_to 'Venue Additional Questions Report', admin_stored_questions_path
+
+.panel.panel-warning
+  .panel-heading
+    %h3.panel-title
+      Note
+  .panel-body
+    %p
+      These are just placeholder / sample reports.

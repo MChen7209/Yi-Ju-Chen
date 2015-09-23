@@ -1,0 +1,13 @@
+%p#notice= notice
+
+%p.text-center
+  %b Name:
+  = @ticket_layout.name
+%p.text-center
+  %b Venue:
+  = @ticket_layout.venue.name
+  %br
+.text-center
+  = link_to 'Edit', edit_admin_ticket_layout_path(@ticket_layout), class: 'btn btn-primary'
+  \|
+  = link_to 'Back', admin_ticket_layouts_path, class: 'btn btn-primary'

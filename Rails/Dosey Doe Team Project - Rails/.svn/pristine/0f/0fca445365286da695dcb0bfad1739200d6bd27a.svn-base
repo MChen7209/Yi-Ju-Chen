@@ -1,0 +1,17 @@
+%center
+  %h1
+    Customer Service
+
+%center
+  %table
+    %tr
+      %td.well.well-lg
+        .list-group
+          %a.list-group-item(href=new_admin_user_path)
+            Create New User
+        .list-group
+          %a.list-group-item(href='/admin/find_customers')
+            Find Customer
+        .list-group
+          %a.list-group-item.disabled
+            Find Transaction

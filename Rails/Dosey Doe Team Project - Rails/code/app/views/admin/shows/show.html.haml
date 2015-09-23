@@ -1,0 +1,23 @@
+.col-md-6.col-md-offset-3.text-center
+  %h1= @show.artist
+  %ul.list-unstyled.text-left
+    %li= @show.venue.name
+    %li= "Show is on #{date_as_words @show.show_date}"
+    %li= "Doors open at #{time_from_datetime @show.doors_open}"
+    %li= h( |
+      "Dinner served between #{time_from_datetime @show.dinner_starts} " + |
+      "and #{time_from_datetime @show.dinner_ends}") |
+    %li= "Show starts at #{time_from_datetime @show.show_starts}"
+
+  %table.table
+    %th.text-center Seats
+    - @show.tickets.each do |ticket|
+      %tr
+        %td{class: open_class(ticket)}= "Seat number: #{ticket.seat.seat_number}"
+
+  = link_to 'Edit', edit_admin_show_path(@show), :class => 'btn btn-primary'
+  \|
+  = link_to 'Delete', [:admin, @show], :method => :delete, :data => { confirm: 'Are you sure?'},
+      :class => 'btn btn-primary'
+  \|
+  = link_to 'Back', :back, :class => 'btn btn-primary'

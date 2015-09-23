@@ -1,0 +1,47 @@
+%p#notice= notice
+
+=link_to @venue.name, 'http://www.doseydoe.com', {:class => 'navbar-brand'}
+%table.table
+  %thread
+    %th
+      %h1 Upcoming Shows
+    %th
+      %h1 Contact Information
+    %tbody
+      %tr
+        %td
+          %table.table
+            %thread
+              %tr
+                %th Artist:
+                %th Show Date:
+                %th Doors Open:
+                %th Dinner Starts:
+                %th Dinner Ends:
+                %th Show Starts:
+                %th= " "
+              %tbody
+                -@venue.shows.each do |show|
+                  %tr
+                    %td= show.artist
+                    %td= date_as_words show.show_date
+                    %td= time_from_datetime show.doors_open
+                    %td= time_from_datetime show.dinner_starts
+                    %td= time_from_datetime show.dinner_ends
+                    %td= time_from_datetime show.show_starts
+                    %td= link_to 'Select Show', admin_show_path, :class => 'btn btn-primary'
+        %td
+          %table.table
+            %tr
+              %td Phone:
+              %td= number_to_phone @venue.phone
+            %tr
+              %td Email:
+              %td placeholder@doseydoe.com
+            %tr
+              %td Address:
+              %td= @venue.address_line1.to_s + " " + @venue.address_line2.to_s + "\n".to_s + @venue.city.to_s + " " + @venue.state.to_s + " " + @venue.zip.to_s
+
+= link_to 'Edit Venue', edit_admin_venue_path(@venue), :class => 'btn btn-primary'
+\|
+= link_to 'Back', :back, :class => 'btn btn-primary'

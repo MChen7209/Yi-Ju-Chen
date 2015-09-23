@@ -1,0 +1,27 @@
+%h1.text-center= @user_type.pluralize
+%br
+.col-md-8.col-md-offset-2
+  = link_to 'New User', new_admin_user_path, class: 'btn btn-primary'
+  %table.table
+    %thead
+      %tr
+        %th First Name
+        %th Last Name
+        %th E-Mail
+        %th User Type
+        - if @user_type == 'Admin'
+          %th Role
+        %th Modify
+    %tbody
+      - @users.each do |user|
+        %tr(id="user#{user.id}_row")
+          %td= user.first_name
+          %td= user.last_name
+          %td= user.email
+          %td= user.type
+          - if @user_type == 'Admin'
+            %td= user.role.name
+          %td{ min_width: '100px;'}
+            =edit_user_button(user)
+            -if @user_type == 'Admin'
+              =delete_user_button(user)

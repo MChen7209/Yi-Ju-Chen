@@ -1,0 +1,10 @@
+AllCops:
+  RunRailsCops: true
+  Exclude:
+    - 'db/**/*'
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Enabled: false

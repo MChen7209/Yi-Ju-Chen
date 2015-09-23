@@ -1,0 +1,32 @@
+Assign2: Due 11:59PM October 17th
+
+We will create a program that will display the net asset value for a user.
+
+A file contains a list of ticker symbols (like GOOG, AMZN, etc.) and the number
+of shares the user has for each of the tickers.
+
+We can get the current price for a stock by visiting
+
+"http://ichart.finance.yahoo.com/table.csv?s=TICKER
+
+where TICKER should be replaced with the ticker symbol like GOOG.
+
+Our program will find out the current stock price for each of the given ticker symbols, find the total asset value for each and display it. It will also display the net asset value, the total dollar value for all the shares held in all the tickers.
+
+Start by drawing a UML diagram of the initial design idea.
+
+Then take a test driven development approach to creating the program.
+
+When done, draw another UML diagram of the final design (which may be the same as the initial design, but does not have to).
+
+Leave the two UML diagrams in two separate files, may be before.pdf and after.pdf (or whatever extension).
+
+After completing the code, answer the following questions:
+
+1. What did you learn in this assignment about design?
+
+YOUR ANSWER GOES HERE
+
+2. What design principles did you use in this assignment? Explain.
+
+YOUR ANSWER GOES HERE

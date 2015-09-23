@@ -1,0 +1,25 @@
+var override = function(event) {
+  $.ajax({
+    url: '/users/checkout',
+    type: 'POST',
+    data: questionData(),
+    contentType: "application/json"
+  });
+  event.preventDefault();
+}
+
+var questionData = function() {
+  answersAsJSON = [];
+  $('.answer').each(function() {
+    var newAnswer = {
+      "question_id": this.dataset.questionId,
+      "answer": this.value
+    }
+    answersAsJSON.push(newAnswer);
+  });
+  return answersAsJSON;
+};
+
+$(function() {
+  $('#questions_form').submit(override);
+});

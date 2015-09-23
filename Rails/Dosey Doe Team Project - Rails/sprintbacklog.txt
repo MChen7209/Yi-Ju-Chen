@@ -1,0 +1,39 @@
+Sprint 6: April 28 - May 5
+
+Sprint 5: April 14 - April 28
+
+Sprint 4: March 31 - April 14
+
+- An admin user creates a Seating Chart, and cannot edit it after it is created.
+- An admin user can duplicate a Seating Chart.
+- An admin user picks a Seating Chart to use with a Show. Once the show is created, the user cannot select a different Seating Chart.
+- A customer can pay for a purchased ticket using a secure method.
+
+Sprint 3: March 10 - March 31
+
+- An admin user creates a show, and that show then has a set of tickets that are ready to be sold to a customer.
+- Any user can see a link to their shopping cart when they have at least one ticket in their cart.
+
+Sprint 2: February 24 - March 10
+
+- The user navigates to the Shows page and can click on an individual show's name to see detailed information about that show.
+    - The Shows page lists all shows in the database.
+    - Each item on this page has a link to the detailed info.
+- The user navigates to the Venues and can click on an individual venue's name to see detailed information about that venue.
+    - The Venues page lists all venues in the database.
+    - Each item on this page has a link to the detailed info.
+- The user, when creating a new Venue, can input the Venue's address.
+    - The new Venue page includes a form for address, including line 1, line 2, city, state, and zip.
+- The user, when editing an existing Venue, can edit the Venue's address.
+    - The new Venue page includes a form for address, including line 1, line 2, city, state, and zip.
+- The user can input and save data about Artists into the database.
+    - There is an Artists page visible from the main site page.
+    - Navigating to this page allows the user to see a list of Artists, similar to how the Venues and Shows index pages work.
+    - The user is able to click a "new artist" button and add a new Artist to the database.
+- The user, when adding a new Show, can specify which Artist will be performing.
+    - The new Show page includes a form element that allows the user to select an Artist from the database.
+- The user, when editing an existing Show, can edit which Artist will be appearing.
+    - The edit Show page includes a form element that allows the user to select an Artist from the database.
+- The user navigates to the Artists page and can click on an individual artist's name to see all previous and upcoming shows featuring that Artist.
+    - The Artist page lists all artists in the database.
+    - Each item on this page has a link to the detailed info.

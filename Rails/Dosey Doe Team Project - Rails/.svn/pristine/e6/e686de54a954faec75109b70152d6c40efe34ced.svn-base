@@ -1,0 +1,8 @@
+%h1.text-center= "Edit #{@user.first_name} #{@user.last_name}"
+
+.col-md-6.col-md-offset-3
+	= render 'form'
+
+
+	.row.text-center
+		= link_to 'Back', :back

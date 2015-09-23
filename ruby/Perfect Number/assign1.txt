@@ -1,0 +1,62 @@
+Assignment 1: Due 11:59PM September 18th
+
+For this assignment we'll use two different languages. One has to be a statically typed language and the other has to be a dynamically typed language.
+
+Create files using proper extensions. Also create either a build file or a sh file that will compile (if necessary) and run your code to display the output or show test results automatically.
+
+If you need help with any of the steps, please ask. You do not have to fight with tools or code for a long time. The purpose of this course is to learn. If you're stuck, then ask for help and it will be given. Of course if you start early, you will be able to make much better progress than if you start late.
+
+In each of the languages, create two implementations for a function that will tell whether a number, given as argument, is a perfect number or not.
+
+A perfect number is a number greater than 1 whose factors total to twice the number. For example, the factors of 6 are 1, 2, 3, and 6. The total of these values is 12 which is twice the given number 6.
+
+The first implementation, in each language, should be in imperative style. The second implementation, in each language, should be in functional style.
+
+Suggestion: Start with one language. Write the code in that languages, evolve it using reviews. Once you've completed code in one language (and gotten a satisfactory review), then create in another language.
+
+After completing the coding (and only after that), answer the following questions:
+
+1. Discuss some of the things you have learned from working on this assignment.
+
+Michael Nguyen:
+  We learned the differences between an imperative style programming and functional style. Functional style programming enables the programmer to pass functions as parameters which was a completely new concept to  me. Functional style programming also had an emphasis on immutable values which was also a new concept. lambda functions were a new method that took some intuition to utilize,. In the past, I had never used them so working with the functions took some research. Certain languages like java you can emulate the functional style but they are not true functional languages. Thanks to Yi Ju Chen, I was able to learn what unit testing was how to use them. It is an essential tool to use if I want to become a better programmer.
+
+Yi Ju Chen:
+  In the past, I programmed something in what may be called partly functional style. Although it was kind of like functional style, there was portions of the code that was imperative. In this assignment, it was possible to code it completely functional. Before using rangedClosed/ranged, I had a written a function that finds the factors of a number and put it into an array list. However, this felt imperative and there must have been a way to write it functionally. After searching around for a functional way to do the same thing, rangedClosed was found on the agile developers website which transformed our 5-6 lined code (for making the ArrayList to sum) into 1 line of code.
+  
+2. Were there any thing that surprised you or things that you did not expect.
+
+Yi Ju Chen:
+	It was a lot faster to code the functional style than the imperative. The functional style took less time because unnecessary ceremony wasn't written. Instead of having to write a for loop and an if, rangeClosed() or ranged was used instead in order to get the numbers required. After you can use .filter() to set the requirements followed by sum() to reduce into addition. It was similar in imperative style and that took even less time. Actually, both functional code were about 1 line of code per function and it was more enjoyable to program in functional style.
+It would seem that having to research every predefined method of the functional style would take longer than writing it imperative style. However good written functions only require you to know 2 things. The arguments required and what it returns. Like in object orientated style, it is not required to know what the function does as long as you know it is doing it right.
+	
+Michael Nguyen:
+	Functional style compared to Imperative style was completely different. My brain could not wrap around the fact that even though the values are immutable you can have computation done to give the final value before it was declared.
+	
+3. Given this experience, draw a comparison between the imperative style and the functional style.
+
+Yi Ju Chen:
+	In imperative style of programming, things were very basic and step by step. Multiple variables were initialized to complete the task. In the functional style of programming, things were still step by step however it was very simple and fast to write. It was really organized and to the point and less ceremony compared to the imperative version.
+  
+  Before using rangedClosed/ranged, an ArrayList was used which created the values into a list then returned it. This however smells of ceremony and after looking further for a solution, found out about rangeClosed. That one small method made multiple lines of code which was needed to make the list redundant. 
+	
+Michael Nguyen:
+	Imperative is very open. It shows states the conditionals and loops that you implement. Functional is hidden intuition to me. It did the conditionals and loops exactly the same but the code was done through anonymous functions which made it prettier and easily written on less lines but for a novice like me it was intimidating.
+  
+	
+4. Given this experience, draw a comparison between static typing and dynamic typing.
+
+Yi Ju Chen:
+	Static typing in java required us to specify every variable and return in the methods However dynamic typing allowed us to allow Ruby to determine at runtime which type was appropriate for the situation. Dynamic typing thus allows us to reassign the same variable even if it is not the same type. If feels a bit more comfortable having both static and dynamic typing in a language because it feels as if more freedom in type can cause more compilation errors that you were not expecting. This means you'd have to test more and catch more exceptions.
+	
+Michael Nguyen:
+	Static typing with java was familiar. It felt kind of ceremonial when coding because each variable had to have it's type declared. Dynamic typing on the other hand, felt a little bit more modern. Without having to declare the type for each variable kind of gave us the opportunity to worry about the code. There could have been many errors through side-effects if we were not careful with our code. Using functional style with a dynamic type seemed extremely optimized compared to the static type of java.
+
+Total[100]: 100
+Build and tests [10]:
+Imperative Language 1 [20]:
+Functional Language 1 [20]:
+Imperative Language 2 [20]:
+Functional Language 2 [20]:
+Answers for questions in assign1.txt [10]:
+

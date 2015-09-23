@@ -1,0 +1,12 @@
+%h1.text-center Shows
+%br
+.text-center
+  = will_paginate @shows
+.col-md-6.col-md-offset-3
+  = render 'shows/index'
+#sidebar.col-md-2
+  .form-group
+    = form_tag shows_path, :method => 'get' do
+      %label Artist
+      = text_field_tag :search, params[:search], class: 'form-control'
+      = submit_tag "Search", :name => nil

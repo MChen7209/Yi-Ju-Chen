@@ -1,0 +1,23 @@
+%li.inverse-dropdown.active#admin_navbar_dropdown.dropdown
+  = link_to "#{current_or_guest_user.first_name} #{current_or_guest_user.last_name}", '#', class: 'dropdown-toggle', 'data-toggle' => :dropdown, role: :button, 'aria-expanded' => :false, id: :user_name
+  %ul.dropdown-menu{ role: :menu }
+    %li#dashboard_link= link_to 'Dashboard', '/admin'
+    %li.divider{ role: :presentation }
+    %li#admin_navbar_view_shows= link_to 'View Shows', admin_shows_path
+    %li#admin_navbar_create_show= link_to 'Add Show', new_admin_show_path
+    %li.divider{ role: :presentation }
+    %li#admin_navbar_view_venues= link_to 'View Venues', admin_venues_path
+    %li#admin_navbar_create_venue= link_to 'Add Venue', new_admin_venue_path
+    %li.divider{ role: :presentation }
+    %li= link_to 'Seating Charts', admin_seating_charts_path, id: 'admin_navbar_seating_charts'
+    %li.divider{ role: :presentation }
+      - if current_or_guest_user.role.view_admins
+        %li= link_to 'View/Edit Admins', admin_admins_path, id: 'admin_navbar_view_admins'
+      - if current_or_guest_user.role.view_customers
+        %li= link_to 'View/Edit Customers', admin_customers_path, id: 'admin_navbar_view_customers'
+        %li= link_to 'Create New User', new_admin_user_path, id: 'admin_navbar_create_user'
+      - if current_or_guest_user.role.view_admins
+        %li= link_to 'Admin Roles', admin_roles_path, id: 'admin_navbar_admin_roles'
+    %li= link_to 'Ticket Layouts', admin_ticket_layouts_path, id: 'admin_navbar_ticket_layouts'
+    %li.divider{ role: :presentation }
+    %li= link_to 'Sign Out', destroy_user_session_path, id: 'admin_navbar_sign_out', method: :delete

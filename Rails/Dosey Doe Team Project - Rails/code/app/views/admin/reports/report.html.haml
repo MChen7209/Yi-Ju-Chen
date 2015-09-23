@@ -1,0 +1,15 @@
+%h1
+  Report results
+
+= link_to '< Back to report selection', admin_reports_path
+
+%table.table
+  %thead
+    %tr
+      - @report_objects[0].attribute_names.each do |attribute|
+        %th= attribute
+  %tbody
+    - @report_objects.each do |table_entry|
+      %tr
+        - table_entry.attribute_names.each do |attribute|
+          %td= table_entry[attribute].to_s

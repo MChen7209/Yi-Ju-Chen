@@ -1,0 +1,8 @@
+%h1.text-center Additional Questions
+
+= form_tag nil, id: :questions_form do
+  -@questions.each do |question|
+    %h4= question.question
+    = text_area_tag "question_answer", nil, class: 'answer', name: nil, data: { question_id: question.id }
+    %br
+  = submit_tag :Checkout, id: :questions_form_submit

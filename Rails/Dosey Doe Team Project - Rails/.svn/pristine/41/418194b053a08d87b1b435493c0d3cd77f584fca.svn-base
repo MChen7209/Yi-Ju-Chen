@@ -1,0 +1,18 @@
+.col-md-6.col-md-offset-3.text-center
+  %h1= @show.artist
+  %ul.list-unstyled.text-left
+
+    %li= "Venue: #{@show.venue.name}"
+    %li= "Show is on #{date_as_words @show.show_date}"
+    %li= "Doors open at #{time_from_datetime @show.doors_open}"
+    %li= "Dinner served between #{time_from_datetime @show.dinner_starts} " + "and #{time_from_datetime @show.dinner_ends}"
+    %li= "Show starts at #{time_from_datetime @show.show_starts}"
+
+  %canvas#seating_chart
+
+  = link_to 'Back', :back, class: 'btn btn-primary'
+  \|
+  = link_to 'Checkout', users_checkout_path, class: 'btn btn-primary'
+
+  = javascript_include_tag 'selectSeatSeatingChart'
+  = stylesheet_link_tag 'jquery-ui-datepicker'

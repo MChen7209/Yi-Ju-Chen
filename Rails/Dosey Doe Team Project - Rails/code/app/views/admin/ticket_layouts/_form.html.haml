@@ -1,0 +1,14 @@
+= form_for [:admin, @ticket_layout] do |f|
+  - if @ticket_layout.errors.any?
+    #error_explanation
+      %ul
+        - @ticket_layout.errors.full_messages.each do |msg|
+          %li= msg
+
+  .form-group.text-center
+    = f.label :ticket_layout_name
+    = f.text_field :name, class: 'form-control'
+  .actions.text-center
+    = f.submit 'Save', class: 'btn btn-primary'
+    \|
+    = link_to 'Back', admin_ticket_layouts_path, class: 'btn btn-primary'

@@ -1,0 +1,27 @@
+= form_for [:admin, @stored_question] do |f|
+  - if @stored_question.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@stored_question.errors.count, "error")} prohibited this question from being saved:"
+      -@stored_question.errors.full_messages.each do |msg|
+        %li= msg
+
+  .row
+    .form-group
+      .col-md-8
+        = f.label :question
+        = f.text_field :question, class: 'form-control'
+  .row
+    .form-group
+      .col-md-8
+        = f.label :venue_id, 'Active on venues'
+        = f.collection_select :venue_id, Venue.all, :id, :name, class: 'form-control'
+  .row
+    .form-group
+      .col-md-8
+        = f.label :active
+        = f.check_box :active
+  .row
+    .actions.text-center
+      .col-md-8
+        = f.submit 'Submit', class: 'btn btn-primary'
+        = link_to 'Back', :back, :class => 'btn btn-primary'

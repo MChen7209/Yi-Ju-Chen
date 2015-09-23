@@ -1,0 +1,13 @@
+class Venue < ActiveRecord::Base
+  validates :name, presence: true
+  validates :address_line1, presence: true
+  validates :city, presence: true
+  validates :state, presence: true
+  validates :zip, presence: true
+
+  has_many :shows
+  has_one :ticket_layout
+
+  has_attached_file :image, :styles => { :medium => "300x300>", :thumb => "100x100>" }, :default_url => "test_venue_1.jpg"
+  validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
+end

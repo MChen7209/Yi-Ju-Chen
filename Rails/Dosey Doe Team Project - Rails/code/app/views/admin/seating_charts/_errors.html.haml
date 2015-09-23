@@ -1,0 +1,6 @@
+.row
+  .col-md-6.col-md-offset-3
+    #error_explanation
+      %ul
+        - @errors.each do |msg|
+          %li= content_tag :div, msg, class: 'alert alert-info'
