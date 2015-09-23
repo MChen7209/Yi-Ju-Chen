@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Skills/Skills.cs">
+    <Files>
+      <File FileName="Assets/Scripts/MainMenu/Menu.cs" Line="440" Column="47" />
+      <File FileName="Assets/MeleeWeaponTrail/Scripts/MeleeWeaponTrail.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Skills/SkillsController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Warrior/WarriorSkills/SwordHitSkill.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Warrior/WarriorSkills/DashSkill.cs" Line="49" Column="5" />
+      <File FileName="Assets/Scripts/Warrior/WarriorSkills/SwordSpinSkill.cs" Line="68" Column="1" />
+      <File FileName="Assets/Scripts/Warrior/WarriorSkills/SwordHit.cs" Line="7" Column="20" />
+      <File FileName="Assets/Scripts/Wizard/Skills/FireballScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Universal/GUIBase.cs" Line="44" Column="27" />
+      <File FileName="Assets/Scripts/Skills/Skills.cs" Line="138" Column="54" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
