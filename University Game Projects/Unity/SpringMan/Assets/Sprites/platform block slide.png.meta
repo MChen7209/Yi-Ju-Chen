@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: 8171747296f0fd64ea076d45ea40cc2e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: platform block slide
+    21300002: platform block slide_0
+    21300004: platform block slide_1
+    21300006: platform block slide_2
+    21300008: platform block slide_3
+    21300010: platform block slide_4
+    21300012: platform block slide_5
+    21300014: platform block slide_6
+    21300016: platform block slide_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 450
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: platform block slide_0
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1666
+        width: 75
+        height: 296
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform block slide_1
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1655
+        width: 420
+        height: 305
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform block slide_2
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1661
+        width: 62
+        height: 287
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform block slide_3
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 991
+        width: 557
+        height: 305
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform block slide_4
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 1079
+        width: 75
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform block slide_5
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1075
+        width: 419
+        height: 134
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform block slide_6
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 1077
+        width: 62
+        height: 126
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: platform block slide_7
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 2596
+        width: 2218
+        height: 139
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

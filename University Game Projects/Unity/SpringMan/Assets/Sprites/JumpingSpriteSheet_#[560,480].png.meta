@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: a581bb791a72ba248b12a31e1a1b4b5d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: JumpingSpriteSheet_#[560,480]
+    21300002: JumpingSpriteSheet_#[560,480]_0
+    21300004: JumpingSpriteSheet_#[560,480]_1
+    21300006: JumpingSpriteSheet_#[560,480]_2
+    21300008: JumpingSpriteSheet_#[560,480]_3
+    21300010: JumpingSpriteSheet_#[560,480]_4
+    21300012: JumpingSpriteSheet_#[560,480]_5
+    21300014: JumpingSpriteSheet_#[560,480]_6
+    21300016: JumpingSpriteSheet_#[560,480]_7
+    21300018: JumpingSpriteSheet_#[560,480]_8
+    21300020: JumpingSpriteSheet_#[560,480]_9
+    21300022: JumpingSpriteSheet_#[560,480]_10
+    21300024: JumpingSpriteSheet_#[560,480]_11
+    21300026: JumpingSpriteSheet_#[560,480]_12
+    21300028: JumpingSpriteSheet_#[560,480]_13
+    21300030: JumpingSpriteSheet_#[560,480]_14
+    21300032: JumpingSpriteSheet_#[560,480]_15
+    21300034: JumpingSpriteSheet_#[560,480]_16
+    21300036: JumpingSpriteSheet_#[560,480]_17
+    21300038: JumpingSpriteSheet_#[560,480]_18
+    21300040: JumpingSpriteSheet_#[560,480]_19
+    21300042: JumpingSpriteSheet_#[560,480]_20
+    21300044: JumpingSpriteSheet_#[560,480]_21
+    21300046: JumpingSpriteSheet_#[560,480]_22
+    21300048: JumpingSpriteSheet_#[560,480]_23
+    21300050: JumpingSpriteSheet_#[560,480]_24
+    21300052: JumpingSpriteSheet_#[560,480]_25
+    21300054: JumpingSpriteSheet_#[560,480]_26
+    21300056: JumpingSpriteSheet_#[560,480]_27
+    21300058: JumpingSpriteSheet_#[560,480]_28
+    21300060: JumpingSpriteSheet_#[560,480]_29
+    21300062: JumpingSpriteSheet_#[560,480]_30
+    21300064: JumpingSpriteSheet_#[560,480]_31
+    21300066: JumpingSpriteSheet_#[560,480]_32
+    21300068: JumpingSpriteSheet_#[560,480]_33
+    21300070: JumpingSpriteSheet_#[560,480]_34
+    21300072: JumpingSpriteSheet_#[560,480]_35
+    21300074: JumpingSpriteSheet_#[560,480]_36
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: JumpingSpriteSheet_#[560,480]_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_1
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 2880
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_2
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 2880
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_3
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2880
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_4
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2880
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_5
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2880
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 2400
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_8
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 2400
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_9
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2400
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_10
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2400
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_11
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2400
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_13
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1920
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_14
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1920
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_15
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1920
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_16
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1920
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_17
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1920
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_19
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_20
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_21
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_22
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_23
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_25
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_26
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_27
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_28
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_29
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_31
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_32
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_33
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_34
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_35
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: JumpingSpriteSheet_#[560,480]_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

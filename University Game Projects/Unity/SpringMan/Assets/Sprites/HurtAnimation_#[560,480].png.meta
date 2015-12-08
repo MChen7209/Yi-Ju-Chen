@@ -1,0 +1,708 @@
+fileFormatVersion: 2
+guid: 6156afe9725aff94094a1e22bd28b7c4
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HurtAnimation_#[560,480]
+    21300002: HurtAnimation_#[560,480]_0
+    21300004: HurtAnimation_#[560,480]_1
+    21300006: HurtAnimation_#[560,480]_2
+    21300008: HurtAnimation_#[560,480]_3
+    21300010: HurtAnimation_#[560,480]_4
+    21300012: HurtAnimation_#[560,480]_5
+    21300014: HurtAnimation_#[560,480]_6
+    21300016: HurtAnimation_#[560,480]_7
+    21300018: HurtAnimation_#[560,480]_8
+    21300020: HurtAnimation_#[560,480]_9
+    21300022: HurtAnimation_#[560,480]_10
+    21300024: HurtAnimation_#[560,480]_11
+    21300026: HurtAnimation_#[560,480]_12
+    21300028: HurtAnimation_#[560,480]_13
+    21300030: HurtAnimation_#[560,480]_14
+    21300032: HurtAnimation_#[560,480]_15
+    21300034: HurtAnimation_#[560,480]_16
+    21300036: HurtAnimation_#[560,480]_17
+    21300038: HurtAnimation_#[560,480]_18
+    21300040: HurtAnimation_#[560,480]_19
+    21300042: HurtAnimation_#[560,480]_20
+    21300044: HurtAnimation_#[560,480]_21
+    21300046: HurtAnimation_#[560,480]_22
+    21300048: HurtAnimation_#[560,480]_23
+    21300050: HurtAnimation_#[560,480]_24
+    21300052: HurtAnimation_#[560,480]_25
+    21300054: HurtAnimation_#[560,480]_26
+    21300056: HurtAnimation_#[560,480]_27
+    21300058: HurtAnimation_#[560,480]_28
+    21300060: HurtAnimation_#[560,480]_29
+    21300062: HurtAnimation_#[560,480]_30
+    21300064: HurtAnimation_#[560,480]_31
+    21300066: HurtAnimation_#[560,480]_32
+    21300068: HurtAnimation_#[560,480]_33
+    21300070: HurtAnimation_#[560,480]_34
+    21300072: HurtAnimation_#[560,480]_35
+    21300074: HurtAnimation_#[560,480]_36
+    21300076: HurtAnimation_#[560,480]_37
+    21300078: HurtAnimation_#[560,480]_38
+    21300080: HurtAnimation_#[560,480]_39
+    21300082: HurtAnimation_#[560,480]_40
+    21300084: HurtAnimation_#[560,480]_41
+    21300086: HurtAnimation_#[560,480]_42
+    21300088: HurtAnimation_#[560,480]_43
+    21300090: HurtAnimation_#[560,480]_44
+    21300092: HurtAnimation_#[560,480]_45
+    21300094: HurtAnimation_#[560,480]_46
+    21300096: HurtAnimation_#[560,480]_47
+    21300098: HurtAnimation_#[560,480]_48
+    21300100: HurtAnimation_#[560,480]_49
+    21300102: HurtAnimation_#[560,480]_50
+    21300104: HurtAnimation_#[560,480]_51
+    21300106: HurtAnimation_#[560,480]_52
+    21300108: HurtAnimation_#[560,480]_53
+    21300110: HurtAnimation_#[560,480]_54
+    21300112: HurtAnimation_#[560,480]_55
+    21300114: HurtAnimation_#[560,480]_56
+    21300116: HurtAnimation_#[560,480]_57
+    21300118: HurtAnimation_#[560,480]_58
+    21300120: HurtAnimation_#[560,480]_59
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: HurtAnimation_#[560,480]_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3840
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_1
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 3840
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_2
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 3840
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_3
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 3840
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_4
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 3840
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_5
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3840
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_6
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 3840
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3360
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_8
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 3360
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_9
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 3360
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_10
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 3360
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_11
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 3360
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_12
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 3360
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_13
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 3360
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_15
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 2880
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_16
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 2880
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_17
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2880
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_18
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2880
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_19
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2880
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_20
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 2880
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_22
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 2400
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_23
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 2400
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_24
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2400
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_25
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2400
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_26
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2400
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_27
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 2400
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_29
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1920
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_30
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1920
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_31
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1920
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_32
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1920
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_33
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1920
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_34
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1920
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_36
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_37
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_38
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_39
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_40
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_41
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_43
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_44
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_45
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_46
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_47
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_48
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_50
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_51
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_52
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_53
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_54
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_55
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_57
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_58
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HurtAnimation_#[560,480]_59
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 0
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

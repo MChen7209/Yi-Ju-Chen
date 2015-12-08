@@ -1,0 +1,389 @@
+fileFormatVersion: 2
+guid: 93a6225679ec844468d2c86a06ef1482
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RunningSpriteSheet_#[560,480]
+    21300002: RunningSpriteSheet_#[560,480]_0
+    21300004: RunningSpriteSheet_#[560,480]_1
+    21300006: RunningSpriteSheet_#[560,480]_2
+    21300008: RunningSpriteSheet_#[560,480]_3
+    21300010: RunningSpriteSheet_#[560,480]_4
+    21300012: RunningSpriteSheet_#[560,480]_5
+    21300014: RunningSpriteSheet_#[560,480]_6
+    21300016: RunningSpriteSheet_#[560,480]_7
+    21300018: RunningSpriteSheet_#[560,480]_8
+    21300020: RunningSpriteSheet_#[560,480]_9
+    21300022: RunningSpriteSheet_#[560,480]_10
+    21300024: RunningSpriteSheet_#[560,480]_11
+    21300026: RunningSpriteSheet_#[560,480]_12
+    21300028: RunningSpriteSheet_#[560,480]_13
+    21300030: RunningSpriteSheet_#[560,480]_14
+    21300032: RunningSpriteSheet_#[560,480]_15
+    21300034: RunningSpriteSheet_#[560,480]_16
+    21300036: RunningSpriteSheet_#[560,480]_17
+    21300038: RunningSpriteSheet_#[560,480]_18
+    21300040: RunningSpriteSheet_#[560,480]_19
+    21300042: RunningSpriteSheet_#[560,480]_20
+    21300044: RunningSpriteSheet_#[560,480]_21
+    21300046: RunningSpriteSheet_#[560,480]_22
+    21300048: RunningSpriteSheet_#[560,480]_23
+    21300050: RunningSpriteSheet_#[560,480]_24
+    21300052: RunningSpriteSheet_#[560,480]_25
+    21300054: RunningSpriteSheet_#[560,480]_26
+    21300056: RunningSpriteSheet_#[560,480]_27
+    21300058: RunningSpriteSheet_#[560,480]_28
+    21300060: RunningSpriteSheet_#[560,480]_29
+    21300062: RunningSpriteSheet_#[560,480]_30
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RunningSpriteSheet_#[560,480]_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_1
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 2880
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_2
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 2880
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_3
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2880
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_4
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2880
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_6
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 2400
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_7
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 2400
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_8
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 2400
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_9
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 2400
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_11
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1920
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_12
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1920
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_13
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1920
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_14
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1920
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_16
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_17
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_18
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_19
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_21
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_22
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_23
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_24
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_26
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_27
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_28
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_29
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_#[560,480]_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

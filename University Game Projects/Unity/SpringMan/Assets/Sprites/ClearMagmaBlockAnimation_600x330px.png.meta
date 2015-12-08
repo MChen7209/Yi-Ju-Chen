@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: a49bd2f3d3bad714cae0be145d9eb030
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ClearMagmaBlockAnimation_600x330px
+    21300002: ClearMagmaBlockAnimation_600x330px_0
+    21300004: ClearMagmaBlockAnimation_600x330px_1
+    21300006: ClearMagmaBlockAnimation_600x330px_2
+    21300008: ClearMagmaBlockAnimation_600x330px_3
+    21300010: ClearMagmaBlockAnimation_600x330px_4
+    21300012: ClearMagmaBlockAnimation_600x330px_5
+    21300014: ClearMagmaBlockAnimation_600x330px_6
+    21300016: ClearMagmaBlockAnimation_600x330px_7
+    21300018: ClearMagmaBlockAnimation_600x330px_8
+    21300020: ClearMagmaBlockAnimation_600x330px_9
+    21300022: ClearMagmaBlockAnimation_600x330px_10
+    21300024: ClearMagmaBlockAnimation_600x330px_11
+    21300026: ClearMagmaBlockAnimation_600x330px_12
+    21300028: ClearMagmaBlockAnimation_600x330px_13
+    21300030: ClearMagmaBlockAnimation_600x330px_14
+    21300032: ClearMagmaBlockAnimation_600x330px_15
+    21300034: ClearMagmaBlockAnimation_600x330px_16
+    21300036: ClearMagmaBlockAnimation_600x330px_17
+    21300038: ClearMagmaBlockAnimation_600x330px_18
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ClearMagmaBlockAnimation_600x330px_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1333
+        width: 572
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClearMagmaBlockAnimation_600x330px_1
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1333
+        width: 572
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClearMagmaBlockAnimation_600x330px_2
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1333
+        width: 572
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClearMagmaBlockAnimation_600x330px_3
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 1333
+        width: 572
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClearMagmaBlockAnimation_600x330px_4
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1003
+        width: 572
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClearMagmaBlockAnimation_600x330px_5
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1003
+        width: 572
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClearMagmaBlockAnimation_600x330px_6
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1003
+        width: 572
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClearMagmaBlockAnimation_600x330px_7
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 1003
+        width: 572
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClearMagmaBlockAnimation_600x330px_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 673
+        width: 572
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClearMagmaBlockAnimation_600x330px_9
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 673
+        width: 572
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClearMagmaBlockAnimation_600x330px_10
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 673
+        width: 572
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClearMagmaBlockAnimation_600x330px_11
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 673
+        width: 572
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClearMagmaBlockAnimation_600x330px_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 343
+        width: 572
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClearMagmaBlockAnimation_600x330px_13
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 343
+        width: 572
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClearMagmaBlockAnimation_600x330px_14
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 343
+        width: 572
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClearMagmaBlockAnimation_600x330px_15
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 343
+        width: 572
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClearMagmaBlockAnimation_600x330px_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 13
+        width: 572
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClearMagmaBlockAnimation_600x330px_17
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 13
+        width: 572
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClearMagmaBlockAnimation_600x330px_18
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 13
+        width: 572
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

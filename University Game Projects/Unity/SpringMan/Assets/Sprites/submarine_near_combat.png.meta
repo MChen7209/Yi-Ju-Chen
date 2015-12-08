@@ -1,0 +1,114 @@
+fileFormatVersion: 2
+guid: 4046f065e63a0714caba9655e68d29c8
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: submarine_near_combat
+    21300002: submarine_near_combat_0
+    21300004: submarine_near_combat_1
+    21300006: submarine_near_combat_2
+    21300008: submarine_near_combat_3
+    21300010: submarine_near_combat_4
+    21300012: submarine_near_combat_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: submarine_near_combat_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2694
+        width: 1115
+        height: 660
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: submarine_near_combat_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1946
+        width: 1115
+        height: 660
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: submarine_near_combat_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1178
+        width: 1115
+        height: 660
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: submarine_near_combat_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 347
+        width: 1115
+        height: 660
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: submarine_near_combat_4
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 2670
+        width: 1115
+        height: 660
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: submarine_near_combat_5
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 1931
+        width: 1115
+        height: 660
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

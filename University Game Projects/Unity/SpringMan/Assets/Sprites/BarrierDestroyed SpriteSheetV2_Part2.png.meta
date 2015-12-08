@@ -1,0 +1,554 @@
+fileFormatVersion: 2
+guid: 1fa2d5bccfb56cc4f80f746797a3ac7a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BarrierDestroyed SpriteSheetV2_Part2
+    21300002: BarrierDestroyed SpriteSheetV2_Part2_0
+    21300004: BarrierDestroyed SpriteSheetV2_Part2_1
+    21300006: BarrierDestroyed SpriteSheetV2_Part2_2
+    21300008: BarrierDestroyed SpriteSheetV2_Part2_3
+    21300010: BarrierDestroyed SpriteSheetV2_Part2_4
+    21300012: BarrierDestroyed SpriteSheetV2_Part2_5
+    21300014: BarrierDestroyed SpriteSheetV2_Part2_6
+    21300016: BarrierDestroyed SpriteSheetV2_Part2_7
+    21300018: BarrierDestroyed SpriteSheetV2_Part2_8
+    21300020: BarrierDestroyed SpriteSheetV2_Part2_9
+    21300022: BarrierDestroyed SpriteSheetV2_Part2_10
+    21300024: BarrierDestroyed SpriteSheetV2_Part2_11
+    21300026: BarrierDestroyed SpriteSheetV2_Part2_12
+    21300028: BarrierDestroyed SpriteSheetV2_Part2_13
+    21300030: BarrierDestroyed SpriteSheetV2_Part2_14
+    21300032: BarrierDestroyed SpriteSheetV2_Part2_15
+    21300034: BarrierDestroyed SpriteSheetV2_Part2_16
+    21300036: BarrierDestroyed SpriteSheetV2_Part2_17
+    21300038: BarrierDestroyed SpriteSheetV2_Part2_18
+    21300040: BarrierDestroyed SpriteSheetV2_Part2_19
+    21300042: BarrierDestroyed SpriteSheetV2_Part2_20
+    21300044: BarrierDestroyed SpriteSheetV2_Part2_21
+    21300046: BarrierDestroyed SpriteSheetV2_Part2_22
+    21300048: BarrierDestroyed SpriteSheetV2_Part2_23
+    21300050: BarrierDestroyed SpriteSheetV2_Part2_24
+    21300052: BarrierDestroyed SpriteSheetV2_Part2_25
+    21300054: BarrierDestroyed SpriteSheetV2_Part2_26
+    21300056: BarrierDestroyed SpriteSheetV2_Part2_27
+    21300058: BarrierDestroyed SpriteSheetV2_Part2_28
+    21300060: BarrierDestroyed SpriteSheetV2_Part2_29
+    21300062: BarrierDestroyed SpriteSheetV2_Part2_30
+    21300064: BarrierDestroyed SpriteSheetV2_Part2_31
+    21300066: BarrierDestroyed SpriteSheetV2_Part2_32
+    21300068: BarrierDestroyed SpriteSheetV2_Part2_33
+    21300070: BarrierDestroyed SpriteSheetV2_Part2_34
+    21300072: BarrierDestroyed SpriteSheetV2_Part2_35
+    21300074: BarrierDestroyed SpriteSheetV2_Part2_36
+    21300076: BarrierDestroyed SpriteSheetV2_Part2_37
+    21300078: BarrierDestroyed SpriteSheetV2_Part2_38
+    21300080: BarrierDestroyed SpriteSheetV2_Part2_39
+    21300082: BarrierDestroyed SpriteSheetV2_Part2_40
+    21300084: BarrierDestroyed SpriteSheetV2_Part2_41
+    21300086: BarrierDestroyed SpriteSheetV2_Part2_42
+    21300088: BarrierDestroyed SpriteSheetV2_Part2_43
+    21300090: BarrierDestroyed SpriteSheetV2_Part2_44
+    21300092: BarrierDestroyed SpriteSheetV2_Part2_45
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BarrierDestroyed SpriteSheetV2_Part2_0
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 4191
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_1
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 4191
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_2
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 4191
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_3
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 4191
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_4
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 3885
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_5
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 3885
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_6
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 3885
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_7
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 3885
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_8
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 3579
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_9
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 3579
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_10
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 3579
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_11
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 3579
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_12
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 3273
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_13
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 3273
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_14
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 3273
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_15
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 3273
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_16
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2967
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_17
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 2967
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_18
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 2967
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_19
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 2967
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_20
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2661
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_21
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 2661
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_22
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 2661
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_23
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 2661
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_24
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2355
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_25
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 2355
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_26
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 2355
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_27
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 2355
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_28
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2049
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_29
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 2049
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_30
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 2049
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_31
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 2049
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_32
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1743
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_33
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1743
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_34
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 1743
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_35
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 1743
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_36
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1437
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_37
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1437
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_38
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 1437
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_39
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 1437
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_40
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1131
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_41
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1131
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_42
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 1131
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_43
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 1131
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_44
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 825
+        width: 1024
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BarrierDestroyed SpriteSheetV2_Part2_45
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 825
+        width: 1025
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

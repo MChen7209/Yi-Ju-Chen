@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../Intermediate Game Dev/SpringMan/Assets/Scripts/HeroScripts/HeroSpawn.cs">
+    <Files>
+      <File FileName="../../Intermediate Game Dev/SpringMan/Assets/Scripts/LevelChangeScript.cs" Line="20" Column="10" />
+      <File FileName="../../Intermediate Game Dev/SpringMan/Assets/Scripts/Score.cs" Line="23" Column="1" />
+      <File FileName="../../Intermediate Game Dev/SpringMan/Assets/Scripts/Distance.cs" Line="1" Column="1" />
+      <File FileName="../../Intermediate Game Dev/SpringMan/Assets/Scripts/RobotControl.cs" Line="48" Column="27" />
+      <File FileName="../../Intermediate Game Dev/SpringMan/Assets/Scripts/HeroScripts/HeroController.cs" Line="40" Column="38" />
+      <File FileName="../../Intermediate Game Dev/SpringMan/Assets/Scripts/HeroScripts/HeroPowers.cs" Line="1" Column="1" />
+      <File FileName="../../Intermediate Game Dev/SpringMan/Assets/Scripts/HeroScripts/VitalsScript.cs" Line="21" Column="24" />
+      <File FileName="../../Intermediate Game Dev/SpringMan/Assets/Scripts/HeroScripts/SpikeShieldScript.cs" Line="24" Column="40" />
+      <File FileName="../../Intermediate Game Dev/SpringMan/Assets/Scripts/HeroScripts/HeroSpawn.cs" Line="10" Column="67" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

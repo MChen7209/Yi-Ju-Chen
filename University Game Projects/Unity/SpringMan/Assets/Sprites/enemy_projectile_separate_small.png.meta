@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: 901a1389e46b947859e504a963f5b664
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: enemy_projectile_separate_small_0
+    21300002: enemy_projectile_separate_small_1
+    21300004: enemy_projectile_separate_small_2
+    21300006: enemy_projectile_separate_small_3
+    21300008: enemy_projectile_separate_small_4
+    21300010: enemy_projectile_separate_small_5
+    21300012: enemy_projectile_separate_small_6
+    21300014: enemy_projectile_separate_small_7
+    21300016: enemy_projectile_separate_small_8
+    21300018: enemy_projectile_separate_small_9
+    21300020: enemy_projectile_separate_small_10
+    21300022: enemy_projectile_separate_small_11
+    21300024: enemy_projectile_separate_small_12
+    21300026: enemy_projectile_separate_small_13
+    21300028: enemy_projectile_separate_small_14
+    21300030: enemy_projectile_separate_small_15
+    21300032: enemy_projectile_separate_small_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: enemy_projectile_separate_small_3
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1984
+        width: 172
+        height: 191
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_projectile_separate_small_5
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1880
+        width: 289
+        height: 285
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_projectile_separate_small_9
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1388
+        width: 581
+        height: 262
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_projectile_separate_small_10
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1124
+        width: 1041
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_projectile_separate_small_11
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 773
+        width: 227
+        height: 218
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_projectile_separate_small_14
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 246
+        width: 1005
+        height: 311
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_projectile_separate_small_15
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 2015
+        width: 189
+        height: 138
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_projectile_separate_small_10
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 771
+        width: 250
+        height: 244
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

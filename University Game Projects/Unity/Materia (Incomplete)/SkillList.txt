@@ -1,0 +1,11 @@
+FireBallSkill,attack,Wizard,Simple ball of fire that may be able to light up objects and maybe some enemies.,40,2
+LightBallUtility,utility,Wizard,The path can be found even in the darkest of zones… when one only remembers to turn on the LightBall.,0,0
+LightningStrikeSkill,attack,Wizard,A node of energy that calls down a lightning strike from the skies.,25,5
+IceBallSkill,attack,Wizard,A icy glacier that freezes enemies and specific objects.,0,2
+KinesisableUtility,utility,Wizard,Connect to an object and move it from a distance.,0,0
+IceBlockUtility,utility,Wizard,Summon a block of ice as a platform.,0,0
+ArrowShootSkill,attack,Archer,Shoot a deadly arrow.,100,2
+HookShotUtility,utility,Archer,Swing on a rope!.,0,0
+SwordHitSkill,attack,Warrior,A sword slash.,2,1
+DashSkill,attack,Warrior,A Dash,0,0
+SwordSpinSkill,attack,Warrior,A sword spin,2,0

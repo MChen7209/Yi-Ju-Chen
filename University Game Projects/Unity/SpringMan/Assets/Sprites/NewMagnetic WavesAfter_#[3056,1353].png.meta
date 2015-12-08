@@ -1,0 +1,711 @@
+fileFormatVersion: 2
+guid: e8ff7d639e97dff4091e358e27de00e1
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NewMagnetic WavesAfter_#[3056,1353]
+    21300002: NewMagnetic WavesAfter_#[3056,1353]_0
+    21300004: NewMagnetic WavesAfter_#[3056,1353]_1
+    21300006: NewMagnetic WavesAfter_#[3056,1353]_2
+    21300008: NewMagnetic WavesAfter_#[3056,1353]_3
+    21300010: NewMagnetic WavesAfter_#[3056,1353]_4
+    21300012: NewMagnetic WavesAfter_#[3056,1353]_5
+    21300014: NewMagnetic WavesAfter_#[3056,1353]_6
+    21300016: NewMagnetic WavesAfter_#[3056,1353]_7
+    21300018: NewMagnetic WavesAfter_#[3056,1353]_8
+    21300020: NewMagnetic WavesAfter_#[3056,1353]_9
+    21300022: NewMagnetic WavesAfter_#[3056,1353]_10
+    21300024: NewMagnetic WavesAfter_#[3056,1353]_11
+    21300026: NewMagnetic WavesAfter_#[3056,1353]_12
+    21300028: NewMagnetic WavesAfter_#[3056,1353]_13
+    21300030: NewMagnetic WavesAfter_#[3056,1353]_14
+    21300032: NewMagnetic WavesAfter_#[3056,1353]_15
+    21300034: NewMagnetic WavesAfter_#[3056,1353]_16
+    21300036: NewMagnetic WavesAfter_#[3056,1353]_17
+    21300038: NewMagnetic WavesAfter_#[3056,1353]_18
+    21300040: NewMagnetic WavesAfter_#[3056,1353]_19
+    21300042: NewMagnetic WavesAfter_#[3056,1353]_20
+    21300044: NewMagnetic WavesAfter_#[3056,1353]_21
+    21300046: NewMagnetic WavesAfter_#[3056,1353]_22
+    21300048: NewMagnetic WavesAfter_#[3056,1353]_23
+    21300050: NewMagnetic WavesAfter_#[3056,1353]_24
+    21300052: NewMagnetic WavesAfter_#[3056,1353]_25
+    21300054: NewMagnetic WavesAfter_#[3056,1353]_26
+    21300056: NewMagnetic WavesAfter_#[3056,1353]_27
+    21300058: NewMagnetic WavesAfter_#[3056,1353]_28
+    21300060: NewMagnetic WavesAfter_#[3056,1353]_29
+    21300062: NewMagnetic WavesAfter_#[3056,1353]_30
+    21300064: NewMagnetic WavesAfter_#[3056,1353]_31
+    21300066: NewMagnetic WavesAfter_#[3056,1353]_32
+    21300068: NewMagnetic WavesAfter_#[3056,1353]_33
+    21300070: NewMagnetic WavesAfter_#[3056,1353]_34
+    21300072: NewMagnetic WavesAfter_#[3056,1353]_35
+    21300074: NewMagnetic WavesAfter_#[3056,1353]_36
+    21300076: NewMagnetic WavesAfter_#[3056,1353]_37
+    21300078: NewMagnetic WavesAfter_#[3056,1353]_38
+    21300080: NewMagnetic WavesAfter_#[3056,1353]_39
+    21300082: NewMagnetic WavesAfter_#[3056,1353]_40
+    21300084: NewMagnetic WavesAfter_#[3056,1353]_41
+    21300086: NewMagnetic WavesAfter_#[3056,1353]_42
+    21300088: NewMagnetic WavesAfter_#[3056,1353]_43
+    21300090: NewMagnetic WavesAfter_#[3056,1353]_44
+    21300092: NewMagnetic WavesAfter_#[3056,1353]_45
+    21300094: NewMagnetic WavesAfter_#[3056,1353]_46
+    21300096: NewMagnetic WavesAfter_#[3056,1353]_47
+    21300098: NewMagnetic WavesAfter_#[3056,1353]_48
+    21300100: NewMagnetic WavesAfter_#[3056,1353]_49
+    21300102: NewMagnetic WavesAfter_#[3056,1353]_50
+    21300104: NewMagnetic WavesAfter_#[3056,1353]_51
+    21300106: NewMagnetic WavesAfter_#[3056,1353]_52
+    21300108: NewMagnetic WavesAfter_#[3056,1353]_53
+    21300110: NewMagnetic WavesAfter_#[3056,1353]_54
+    21300112: NewMagnetic WavesAfter_#[3056,1353]_55
+    21300114: NewMagnetic WavesAfter_#[3056,1353]_56
+    21300116: NewMagnetic WavesAfter_#[3056,1353]_57
+    21300118: NewMagnetic WavesAfter_#[3056,1353]_58
+    21300120: NewMagnetic WavesAfter_#[3056,1353]_59
+    21300122: NewMagnetic WavesAfter_#[3056,1353]_60
+    21300124: NewMagnetic WavesAfter_#[3056,1353]_61
+    21300126: NewMagnetic WavesAfter_#[3056,1353]_62
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: NewMagnetic WavesAfter_#[3056,1353]_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5060
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_1
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 5060
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_2
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 5060
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_3
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 5060
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_4
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 5060
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_5
+      rect:
+        serializedVersion: 2
+        x: 7140
+        y: 5060
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_6
+      rect:
+        serializedVersion: 2
+        x: 8568
+        y: 5060
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4428
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_8
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 4428
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_9
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 4428
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_10
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 4428
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_11
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 4428
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_12
+      rect:
+        serializedVersion: 2
+        x: 7140
+        y: 4428
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_13
+      rect:
+        serializedVersion: 2
+        x: 8568
+        y: 4428
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3796
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_15
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 3796
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_16
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 3796
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_17
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 3796
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_18
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 3796
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_19
+      rect:
+        serializedVersion: 2
+        x: 7140
+        y: 3796
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_20
+      rect:
+        serializedVersion: 2
+        x: 8568
+        y: 3796
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3164
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_22
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 3164
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_23
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 3164
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_24
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 3164
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_25
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 3164
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_26
+      rect:
+        serializedVersion: 2
+        x: 7140
+        y: 3164
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_27
+      rect:
+        serializedVersion: 2
+        x: 8568
+        y: 3164
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2532
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_29
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 2532
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_30
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 2532
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_31
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 2532
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_32
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 2532
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_33
+      rect:
+        serializedVersion: 2
+        x: 7140
+        y: 2532
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_34
+      rect:
+        serializedVersion: 2
+        x: 8568
+        y: 2532
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1900
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_36
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1900
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_37
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 1900
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_38
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 1900
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_39
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 1900
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_40
+      rect:
+        serializedVersion: 2
+        x: 7140
+        y: 1900
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_41
+      rect:
+        serializedVersion: 2
+        x: 8568
+        y: 1900
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1268
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_43
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1268
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_44
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 1268
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_45
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 1268
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_46
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 1268
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_47
+      rect:
+        serializedVersion: 2
+        x: 7140
+        y: 1268
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_48
+      rect:
+        serializedVersion: 2
+        x: 8568
+        y: 1268
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 636
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_50
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 636
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_51
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 636
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_52
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 636
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_53
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 636
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_54
+      rect:
+        serializedVersion: 2
+        x: 7140
+        y: 636
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_55
+      rect:
+        serializedVersion: 2
+        x: 8568
+        y: 636
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_57
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 4
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_58
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 4
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NewMagnetic WavesAfter_#[3056,1353]_59
+      rect:
+        serializedVersion: 2
+        x: 4284
+        y: 4
+        width: 1428
+        height: 632
+      alignment: 5
+      pivot: {x: 1, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

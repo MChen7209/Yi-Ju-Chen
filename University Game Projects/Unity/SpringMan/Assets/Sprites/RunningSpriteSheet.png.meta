@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: f984d15da98ab274c986e57dd9d8dd78
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RunningSpriteSheet_0
+    21300002: RunningSpriteSheet_1
+    21300004: RunningSpriteSheet_2
+    21300006: RunningSpriteSheet_3
+    21300008: RunningSpriteSheet_4
+    21300010: RunningSpriteSheet_5
+    21300012: RunningSpriteSheet_6
+    21300014: RunningSpriteSheet_7
+    21300016: RunningSpriteSheet_8
+    21300018: RunningSpriteSheet_9
+    21300020: RunningSpriteSheet_10
+    21300022: RunningSpriteSheet_11
+    21300024: RunningSpriteSheet_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RunningSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1440
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 960
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 480
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RunningSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 560
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

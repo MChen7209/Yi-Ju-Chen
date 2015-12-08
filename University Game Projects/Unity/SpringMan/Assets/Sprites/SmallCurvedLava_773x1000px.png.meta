@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: d25837cd05beb9045888cfb8e2dcbf49
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SmallCurvedLava_773x1000px
+    21300002: SmallCurvedLava_773x1000px_0
+    21300004: SmallCurvedLava_773x1000px_1
+    21300006: SmallCurvedLava_773x1000px_2
+    21300008: SmallCurvedLava_773x1000px_3
+    21300010: SmallCurvedLava_773x1000px_4
+    21300012: SmallCurvedLava_773x1000px_5
+    21300014: SmallCurvedLava_773x1000px_6
+    21300016: SmallCurvedLava_773x1000px_7
+    21300018: SmallCurvedLava_773x1000px_8
+    21300020: SmallCurvedLava_773x1000px_9
+    21300022: SmallCurvedLava_773x1000px_10
+    21300024: SmallCurvedLava_773x1000px_11
+    21300026: SmallCurvedLava_773x1000px_12
+    21300028: SmallCurvedLava_773x1000px_13
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SmallCurvedLava_773x1000px_0
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 4016
+        width: 302
+        height: 977
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmallCurvedLava_773x1000px_1
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 4016
+        width: 303
+        height: 977
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmallCurvedLava_773x1000px_2
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 4016
+        width: 303
+        height: 977
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmallCurvedLava_773x1000px_3
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 3015
+        width: 302
+        height: 977
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmallCurvedLava_773x1000px_4
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 3015
+        width: 303
+        height: 977
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmallCurvedLava_773x1000px_5
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 3015
+        width: 303
+        height: 977
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmallCurvedLava_773x1000px_6
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 2014
+        width: 302
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmallCurvedLava_773x1000px_7
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 2014
+        width: 303
+        height: 982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmallCurvedLava_773x1000px_8
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 2014
+        width: 303
+        height: 981
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmallCurvedLava_773x1000px_9
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1018
+        width: 302
+        height: 977
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmallCurvedLava_773x1000px_10
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1018
+        width: 303
+        height: 977
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmallCurvedLava_773x1000px_11
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 1018
+        width: 303
+        height: 977
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmallCurvedLava_773x1000px_12
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 17
+        width: 302
+        height: 977
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SmallCurvedLava_773x1000px_13
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 17
+        width: 303
+        height: 977
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
