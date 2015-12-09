@@ -1,5 +1,7 @@
 package fibonacciseries
 
+import scala.annotation.tailrec
+
 class FibonacciSeries {
   def getSeriesRecursive(n: Int) : List[Int] = {
     n match {
@@ -11,13 +13,10 @@ class FibonacciSeries {
       }
     }
   }
-  
-  def getSeriesTailRecursive(n : Int, current : Int=0, sequence : List[Int]=List(1)) : List[Int] = {
-    n match {
-      case 0 => sequence
-      case _ => {
-          getSeriesTailRecursive(n-1, sequence.last, sequence ::: List(current + sequence.last))
-      }
-    }
+
+  @tailrec
+  final def getSeriesTailRecursive(n : Int, sequence : List[Int] = List(1)) : List[Int] = n match {
+    case 0 => sequence
+    case _ => getSeriesTailRecursive(n-1, sequence :+ sequence.takeRight(2).sum)
   }
 }

@@ -1,0 +1,7 @@
+This is a sample of the del syntax I used in the DSL for storing pizza information
+create pizza and {
+   sauce tomato
+   cheese cheddar
+   topping pepperoni, jalapeno
+   bake
+}
